@@ -1,7 +1,9 @@
 (ns client-data-service.clients
   (:require [clojure.string :as string]
             [clj-time.core :as time]
+            [clj-time.coerce :as time-coerce]
             [clj-time.format :as time-format]
+            [client-data-service.clients-db :as db]
             [client-data-service.static-data :as static-data]))
 
 (def data (atom static-data/clients-data))
@@ -50,19 +52,26 @@
                 (when (not (list-contains? gender allowed-gender-values)) {:key "gender" :text "Gender is not a valid value!"}))]
     (filter #(not (= nil %)) errors)))
 
+(defn parse-short-date [date]
+  (.format (java.text.SimpleDateFormat. "yyyy-MM-dd") date))
+
+(defn format-client [client]
+  (merge client {:added (parse-short-date (:added client))
+                 :birthdate (parse-short-date (:birthdate client))}))
+
 (defn filter-clients [query]
-  (filter #(re-find (re-pattern (str "(?i)" query)) (get-text-for-search %)) @data))
+  (map #(format-client %) (db/filter-clients query)))
 
 (defn get-client [id]
-  (first (filter #(= (:id %) id) @data)))
+  (let [result (db/get-client id)]
+    (if (empty? result)
+      {:status 404 :body {:id id}}
+      (format-client (first result)))))
 
 (defn add-client! [client]
   (let [validation-errors (validate-client client)]
     (if (empty? validation-errors)
       (do
-        (let [id (inc (count @data))
-              extended-client (merge client {:id id :active true :added (time-format/unparse datetime-formatter (time/now))})]
-        (println (str extended-client))
-        (swap! data conj extended-client)
-        {:status 200 :body {:id id}}))
+        (let [fixed-client (merge client {:birthdate (time-coerce/to-sql-date (time-format/parse (:birthdate client)))})]
+          {:status 200 :body {(db/add-client! fixed-client)}}))
       {:status 422 :body {:errors validation-errors}})))

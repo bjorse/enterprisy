@@ -62,7 +62,7 @@
   [:tr
     [:td]
     [:td]
-    [:td [:small (str "Number of work orders listed: " workorder-count)]]])
+    [:td [:small.pull-right (str "Number of work orders listed: " workorder-count)]]])
 
 (defn workorder-table [source]
   [:div

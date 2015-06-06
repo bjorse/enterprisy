@@ -1,6 +1,13 @@
 # Development log
 This is a development log for each day anything was done on the project. Each post briefly covers completed tasks of the day and sums up time spent (expressed as hours).
 
+## 2015-06-06
+Alright. The "Client data service" is now fetching and adding from/to a PostgreSQL database that is hosted on my Xubuntu machine. Finally!
+
+Next up is getting RabbitMQ up and running!
+
+**Time spent:** 3
+
 ## 2015-06-05
 Finally got the work order GUI to work(ish) in the client page (with filtering). You learn something new every day!
 
