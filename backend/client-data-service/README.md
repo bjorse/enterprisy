@@ -1,19 +1,46 @@
-# client-data-service
+# Client data service
+Handles all data associated with clients
 
-FIXME
+## API
+###: GET /clients
+Returns all clients currently stored in the database
 
-## Prerequisites
+##### Data structure
+**id** : int
+**added** : datetime
+**firstname** : string
+**lastname** : string
+**email** : string
+**birthdate** : datetime
+**gender** : string : *Either 'Male' or 'Female'*
+**active** : boolean
 
-You will need [Leiningen][] 2.0.0 or above installed.
+###: GET /clients/:id
+Returns the client associated with the provided id (:id)
 
-[leiningen]: https://github.com/technomancy/leiningen
+##### Data structure
+**id** : int
+**added** : datetime
+**firstname** : string
+**lastname** : string
+**email** : string
+**birthdate** : datetime
+**gender** : string : *Either 'Male' or 'Female'*
+**active** : boolean
 
-## Running
+###: POST /client
+Adds a new client with the provided data in the database
 
-To start a web server for the application, run:
+##### Data structure
+**firstname** : string
+**lastname** : string
+**email** : string
+**birthdate** : datetime
+**gender** : string : *Either 'Male' or 'Female'*
 
-    lein ring server
-
-## License
-
-Copyright © 2015 FIXME
+##### Validations
+**firstname** : Required
+**lastname** : Required
+**email** : Required, valid e-mail address
+**birthdate** : Required, not earlier than 100 year, not later than today
+**gender** : Required, either 'Male' or 'Female'
