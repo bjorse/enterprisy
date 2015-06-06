@@ -1,0 +1,46 @@
+body {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  margin-top: 50px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.right {
+  float: right;
+}
+
+.left-buffer {
+  margin-left: 10px;
+}
+
+.top-buffer {
+  margin-top: 10px;
+}
+
+.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.link {
+  cursor: hand;
+}
+
+.big {
+  font-size: 1.2em;
+}
+
+.small {
+  font-size: 0.6em;
+}
+
+.notification-icon .badge {
+  background: red;
+  position: relative;
+  top: -15;
+  left: -8px;
+}
