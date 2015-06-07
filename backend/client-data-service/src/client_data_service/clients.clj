@@ -51,14 +51,14 @@
                 (when (not (list-contains? gender allowed-gender-values)) {:key "gender" :text "Gender is not a valid value!"}))]
     (filter #(not (= nil %)) errors)))
 
-
 (defn format-client [client]
-  (println (:added client))
   (merge client {:added (util/format-short-date (:added client))
                  :birthdate (util/format-short-date (:birthdate client))}))
 
 (defn filter-clients [query]
-  (map #(format-client %) (db/filter-clients query)))
+  (let [result (map #(format-client %) (db/filter-clients query))
+        limited (= (count result) db/max-limit)]
+    {:clients result :limited limited}))
 
 (defn get-client [id]
   (let [result (db/get-client id)]
@@ -70,9 +70,10 @@
   (let [validation-errors (validate-client client)]
     (if (empty? validation-errors)
       (do
-        (let [fixed-client (merge client {:birthdate (time-coerce/to-sql-date (time-format/parse (:birthdate client)))})
-              result (db/add-client! fixed-client)]
-          (println (str "Added client: " result))
-          (queuing/publish! result queuing/add-client-message-type)
-          {:status 200 :body result}))
+        (let [fixed-client (merge client {:birthdate (time-coerce/to-sql-date (time-format/parse (:birthdate client)))})]
+          (if-let [result (db/add-client! fixed-client)]
+            (do (println (str "Added client: " result))
+                (queuing/publish! result queuing/add-client-message-type)
+                {:status 200 :body result}))
+          {:status 500}))
       {:status 422 :body {:errors validation-errors}})))

@@ -8,8 +8,14 @@
 
 (def search-string (atom ""))
 
+(def search-result-limited (atom false))
+
+(defn update-data-result! [data result]
+  (reset! data (:clients result))
+  (reset! search-result-limited (:limited result)))
+
 (defn update-data! [data]
-  (clients-data/get-clients #(reset! data %) @search-string))
+  (clients-data/get-clients #(update-data-result! data %) @search-string))
 
 (defn result-row [{:keys [id firstname lastname email birthdate active]}]
   [:tr {:class (when (not active) "danger")}
@@ -73,6 +79,10 @@
         [:div-col-md-4
           [add-client]]]
       [:hr]
+      (when @search-result-limited
+        [:div.alert.alert-info
+          [:strong "Warning! "]
+          "The search result count is limited due to too many results. Please specify your query further!"])
       (when any-clients
         [:div.row
           [:div.col-md-12

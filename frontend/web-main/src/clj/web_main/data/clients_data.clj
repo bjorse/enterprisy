@@ -14,7 +14,7 @@
   (json/write-str content :key-fn name))
 
 (defn extract-body [result]
-  (:body result))
+  (convert-json-to-map (:body result)))
 
 (defn calculate-age [birthdate]
   (let [parsed-birthdate (time-format/parse birthdate)
@@ -33,16 +33,17 @@
    :age (calculate-age birthdate)})
 
 (defn filter-clients [query]
-  (let [clients (extract-body (client/get client-data-service-url {:query-params {:query query} :accept :json}))]
-    (map #(extract-data %) (convert-json-to-map clients))))
+  (let [result (extract-body (client/get client-data-service-url {:query-params {:query query} :accept :json}))
+        clients (map #(extract-data %) (:clients result))]
+    {:clients clients :limited (:limited result)}))
 
 (defn get-client [id]
   (let [client (extract-body (client/get (str client-data-service-url "/" id)))]
-    (extract-data (convert-json-to-map client))))
+    (extract-data client)))
 
 (defn add-client! [client]
   (let [result (client/post client-data-service-url {:body (convert-map-to-json {:client client})
                                                      :content-type :json
                                                      :accept :json
                                                      :throw-exceptions false})]
-    {:status (:status result) :body (convert-json-to-map (extract-body result))}))
+    {:status (:status result) :body (extract-body result)}))

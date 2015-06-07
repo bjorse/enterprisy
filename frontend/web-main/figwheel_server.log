@@ -10221,3 +10221,90 @@ notifying browser that file changed:  /web_main/components.js
 [0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
 [32mSuccessfully compiled "resources/public/js/app.js" in 0.249 seconds.[0m
 notifying browser that file changed:  /web_main/pages/clients_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.317 seconds.[0m
+notifying browser that file changed:  /web_main/pages/clients_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.272 seconds.[0m
+notifying browser that file changed:  /web_main/pages/clients_page.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.176 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.16 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.281 seconds.[0m
+notifying browser that file changed:  /web_main/pages/clients_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.235 seconds.[0m
+notifying browser that file changed:  /web_main/pages/clients_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.228 seconds.[0m
+notifying browser that file changed:  /web_main/pages/clients_page.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.162 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.162 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js

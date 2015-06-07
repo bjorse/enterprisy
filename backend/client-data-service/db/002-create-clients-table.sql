@@ -1,8 +1,3 @@
-CREATE DATABASE clients;
-GRANT ALL PRIVILEGES ON DATABASE clients TO postgres;
-
-USE DATABASE clients;
-
 CREATE TABLE clients(
   id serial PRIMARY KEY,
   firstname text NOT NULL,

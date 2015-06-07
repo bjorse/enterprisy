@@ -12,11 +12,13 @@
      :user "postgres"
      :password "postgres"})
 
+(def max-limit 500)
+
 (defn filter-clients [query]
   (if (string/blank? query)
-    (sql/query db ["SELECT * FROM clients"])
+    (sql/query db [(str "SELECT * FROM clients LIMIT " max-limit)])
     (do (let [wildcard-query (str "%" query "%")]
-          (sql/query db ["SELECT * FROM clients WHERE firstname ILIKE ? OR lastname ILIKE ? OR email ILIKE ?" wildcard-query wildcard-query wildcard-query])))))
+          (sql/query db [(str "SELECT * FROM clients WHERE firstname ILIKE ? OR lastname ILIKE ? OR email ILIKE ? LIMIT " max-limit) wildcard-query wildcard-query wildcard-query])))))
 
 (defn get-client [id]
   (sql/query db ["SELECT * FROM clients WHERE id = ?" id]))

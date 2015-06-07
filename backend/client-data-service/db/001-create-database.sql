@@ -1,0 +1,2 @@
+CREATE DATABASE clients;
+GRANT ALL PRIVILEGES ON DATABASE clients TO postgres;
