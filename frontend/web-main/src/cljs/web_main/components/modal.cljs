@@ -1,6 +1,6 @@
 (ns web-main.components)
 
-(defn close-modal [id]
+(defn close-modal! [id]
   (let [target (str "#" id)]
     (.modal (js/$ target) "hide")))
 

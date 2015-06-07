@@ -54,7 +54,7 @@
 (defn on-add-client-response [response]
   (if (contains? (:response response) :errors)
     (reset! add-client-page/validation-errors (:errors (:response response)))
-    (do (components/close-modal add-client-modal-name)
+    (do (components/close-modal! add-client-modal-name)
         (add-client-page/reset-form!))))
 
 (defn on-add-client []

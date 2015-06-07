@@ -1,11 +1,14 @@
 (ns client-data-service.clients-db
   (:require [clojure.string :as string]
-            [clojure.java.jdbc :as sql]))
+            [clojure.java.jdbc :as sql]
+            [clj-time.coerce :as tc]
+            [client-data-service.config :as config]
+            [client-data-service.util :as util]))
 
 (def db
     {:classname "org.postgresql.Driver"
      :subprotocol "postgresql"
-     :subname "//172.16.194.135:5432/clients"
+     :subname (str "//" config/database-ip ":5432/clients")
      :user "postgres"
      :password "postgres"})
 
@@ -18,9 +21,15 @@
 (defn get-client [id]
   (sql/query db ["SELECT * FROM clients WHERE id = ?" id]))
 
+(defn handle-insert-result [result]
+  (when-not (empty? result)
+    (let [added-client (first result)]
+      (merge added-client {:added (util/format-short-date (:added added-client))
+                           :birthdate (util/format-short-date (:birthdate added-client))}))))
+
 (defn add-client! [{:keys [firstname lastname email gender birthdate]}]
-  (sql/insert! db :clients {:firstname firstname
-                            :lastname lastname
-                            :email email
-                            :gender gender
-                            :birthdate birthdate}))
+  (handle-insert-result (sql/insert! db :clients {:firstname firstname
+                                                  :lastname lastname
+                                                  :email email
+                                                  :gender gender
+                                                  :birthdate birthdate})))

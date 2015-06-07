@@ -3,7 +3,8 @@
             [compojure.route :as route]
             [compojure.handler :as handler]
             [ring.middleware.json :as middleware]
-            [client-data-service.clients :as clients-data]))
+            [client-data-service.clients :as clients-data]
+            [client-data-service.queuing :as queuing]))
 
 (defroutes app-routes
   (GET "/clients" [query] {:body (clients-data/filter-clients query)})
@@ -15,3 +16,6 @@
   (-> (handler/api app-routes)
       (middleware/wrap-json-body {:keywords? true})
       (middleware/wrap-json-response)))
+
+(defn init []
+  (queuing/listen!))

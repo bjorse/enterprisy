@@ -4,9 +4,8 @@
             [clj-time.coerce :as time-coerce]
             [clj-time.format :as time-format]
             [client-data-service.clients-db :as db]
-            [client-data-service.static-data :as static-data]))
-
-(def data (atom static-data/clients-data))
+            [client-data-service.queuing :as queuing]
+            [client-data-service.util :as util]))
 
 (def allowed-gender-values ["Male" "Female"])
 
@@ -52,12 +51,11 @@
                 (when (not (list-contains? gender allowed-gender-values)) {:key "gender" :text "Gender is not a valid value!"}))]
     (filter #(not (= nil %)) errors)))
 
-(defn parse-short-date [date]
-  (.format (java.text.SimpleDateFormat. "yyyy-MM-dd") date))
 
 (defn format-client [client]
-  (merge client {:added (parse-short-date (:added client))
-                 :birthdate (parse-short-date (:birthdate client))}))
+  (println (:added client))
+  (merge client {:added (util/format-short-date (:added client))
+                 :birthdate (util/format-short-date (:birthdate client))}))
 
 (defn filter-clients [query]
   (map #(format-client %) (db/filter-clients query)))
@@ -72,6 +70,9 @@
   (let [validation-errors (validate-client client)]
     (if (empty? validation-errors)
       (do
-        (let [fixed-client (merge client {:birthdate (time-coerce/to-sql-date (time-format/parse (:birthdate client)))})]
-          {:status 200 :body {(db/add-client! fixed-client)}}))
+        (let [fixed-client (merge client {:birthdate (time-coerce/to-sql-date (time-format/parse (:birthdate client)))})
+              result (db/add-client! fixed-client)]
+          (println (str "Added client: " result))
+          (queuing/publish! result queuing/add-client-message-type)
+          {:status 200 :body result}))
       {:status 422 :body {:errors validation-errors}})))

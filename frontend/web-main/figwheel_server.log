@@ -10215,3 +10215,9 @@ notifying browser that file changed:  /web_main/data/workorders_data.js
 notifying browser that file changed:  /web_main/pages/client_page.js
 notifying browser that file changed:  /web_main/pages/clients_page.js
 notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.268 seconds.[0m
+notifying browser that file changed:  /web_main/components.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.249 seconds.[0m
+notifying browser that file changed:  /web_main/pages/clients_page.js
