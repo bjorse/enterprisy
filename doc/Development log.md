@@ -1,6 +1,17 @@
 # Development log
 This is a development log for each day anything was done on the project. Each post briefly covers completed tasks of the day and sums up time spent (expressed as hours).
 
+## 2015-06-07
+Today I consider the "Client data service" finished for what is needed right now. I got all the database access stuff ready (CRD, not the U yet), and it's publishing the "client.added" message on the "enterprisy" queue in RabbitMQ as well. Good times indeed!
+
+Next up is the workorder services. There will be three of them; first up is the "Workorder data service", which will handle all the base data for workorders. The next is the "Workorder process service", which will handle status changes and publish suitable messages on queues. The last on is the "Workorder todo service", which will tell the todo service to create todo items. Before implementing the "Workorder todo service" though, I'll have to implement the "Todo data service" of course.
+
+The toughest part will be to figure out the process flow for workorders to get the end product ready in time for my presentation. I guess the hour count will peak during these last 10 days.
+
+I'm also battling my virtual Xubuntu machine which keeps changing its ip address. Constantly. That needs to be changed! Now!
+
+**Time spent:** 4
+
 ## 2015-06-06
 Alright. The "Client data service" is now fetching and adding from/to a PostgreSQL database that is hosted on my Xubuntu machine. Finally!
 

@@ -80,9 +80,9 @@
           [add-client]]]
       [:hr]
       (when @search-result-limited
-        [:div.alert.alert-info
+        [:div.alert.alert-info {:role "alert"}
           [:strong "Warning! "]
-          "The search result count is limited due to too many results. Please specify your query further!"])
+          "The search results are limited because of too many hits. Please, specify your query further to get a better result!"])
       (when any-clients
         [:div.row
           [:div.col-md-12
