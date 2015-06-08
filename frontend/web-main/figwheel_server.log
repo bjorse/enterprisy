@@ -10314,3 +10314,503 @@ notifying browser that file changed:  /web_main/pages/clients_page.js
 [0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
 [32mSuccessfully compiled "resources/public/js/app.js" in 0.242 seconds.[0m
 notifying browser that file changed:  /web_main/pages/clients_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/cljs/web_main/pages/untitled.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4551.invoke (core.clj:2622)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$map$fn__4551.invoke (core.clj:2614)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core.protocols/fn (protocols.clj:151)
+    clojure.core.protocols$fn__6476$G__6471__6485.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:81)
+    clojure.core.protocols$fn__6450$G__6445__6463.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6515)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/cljs/web_main/pages/add_workorder_page.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4551.invoke (core.clj:2622)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$map$fn__4551.invoke (core.clj:2614)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core.protocols/fn (protocols.clj:151)
+    clojure.core.protocols$fn__6476$G__6471__6485.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:81)
+    clojure.core.protocols$fn__6450$G__6445__6463.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6515)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.23 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.188 seconds.[0m
+notifying browser that file changed:  /web_main/data/workorders_data.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.169 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/cljs/web_main/untitled.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4551.invoke (core.clj:2622)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$map$fn__4551.invoke (core.clj:2614)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core.protocols/fn (protocols.clj:151)
+    clojure.core.protocols$fn__6476$G__6471__6485.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:81)
+    clojure.core.protocols$fn__6450$G__6445__6463.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6515)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/cljs/web_main/validation.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4551.invoke (core.clj:2622)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$map$fn__4551.invoke (core.clj:2614)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core.protocols/fn (protocols.clj:151)
+    clojure.core.protocols$fn__6476$G__6471__6485.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:81)
+    clojure.core.protocols$fn__6450$G__6445__6463.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6515)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.22 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/validation.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.pages.add-client-page/has-validation-error? at line 26 /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/add_client_page.cljs
+WARNING: Use of undeclared Var web-main.pages.add-client-page/any-validation-errors? at line 45 /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/add_client_page.cljs
+WARNING: Use of undeclared Var web-main.pages.add-client-page/get-validation-errors at line 46 /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/add_client_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.284 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.237 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.156 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.166 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.168 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.186 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Arg literal must be %, %& or %integer on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/add_workorder_page.cljs, line 30, column 82
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.181 seconds.[0m
+notifying browser that file changed:  /web_main/validation.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.239 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: No such namespace: validation, could not locate validation.cljs, validation.cljc, or Closure namespace "" at line 19 src/cljs/web_main/validation.cljs
+WARNING: Use of undeclared Var validation/any-validation-errors? at line 19 src/cljs/web_main/validation.cljs
+WARNING: No such namespace: validation, could not locate validation.cljs, validation.cljc, or Closure namespace "" at line 20 src/cljs/web_main/validation.cljs
+WARNING: Use of undeclared Var validation/get-validation-errors at line 20 src/cljs/web_main/validation.cljs
+WARNING: No such namespace: validation, could not locate validation.cljs, validation.cljc, or Closure namespace "" at line 24 src/cljs/web_main/validation.cljs
+WARNING: Use of undeclared Var validation/validation-error-row at line 24 src/cljs/web_main/validation.cljs
+WARNING: No such namespace: validation, could not locate validation.cljs, validation.cljc, or Closure namespace "" at line 24 src/cljs/web_main/validation.cljs
+WARNING: Use of undeclared Var validation/validation-error-row at line 24 src/cljs/web_main/validation.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.288 seconds.[0m
+notifying browser that file changed:  /web_main/validation.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Arg literal must be %, %& or %integer on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/add_workorder_page.cljs, line 30, column 82
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.217 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Arg literal must be %, %& or %integer on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/add_workorder_page.cljs, line 30, column 82
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: No such namespace: components, could not locate components.cljs, components.cljc, or Closure namespace "" at line 174 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var components/modal-save at line 174 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var web-main.pages.client-page/add-client-modal-name at line 174 src/cljs/web_main/pages/client_page.cljs
+WARNING: No such namespace: add-client-page, could not locate add_client_page.cljs, add_client_page.cljc, or Closure namespace "" at line 176 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var add-client-page/render at line 176 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var web-main.pages.client-page/on-add-client at line 177 src/cljs/web_main/pages/client_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.404 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: No such namespace: components, could not locate components.cljs, components.cljc, or Closure namespace "" at line 176 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var components/modal-save at line 176 src/cljs/web_main/pages/client_page.cljs
+WARNING: No such namespace: add-client-page, could not locate add_client_page.cljs, add_client_page.cljc, or Closure namespace "" at line 178 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var add-client-page/render at line 178 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var web-main.pages.client-page/on-add-client at line 179 src/cljs/web_main/pages/client_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.378 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: No such namespace: components, could not locate components.cljs, components.cljc, or Closure namespace "" at line 177 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var components/modal-save at line 177 src/cljs/web_main/pages/client_page.cljs
+WARNING: No such namespace: add-client-page, could not locate add_client_page.cljs, add_client_page.cljc, or Closure namespace "" at line 179 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var add-client-page/render at line 179 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var web-main.pages.client-page/on-add-client at line 180 src/cljs/web_main/pages/client_page.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Arg literal must be %, %& or %integer on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/add_workorder_page.cljs, line 30, column 82
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: No such namespace: components, could not locate components.cljs, components.cljc, or Closure namespace "" at line 177 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var components/modal-save at line 177 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var web-main.pages.client-page/on-add-client at line 180 src/cljs/web_main/pages/client_page.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Arg literal must be %, %& or %integer on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/add_workorder_page.cljs, line 30, column 82
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: No such namespace: add-client-page, could not locate add_client_page.cljs, add_client_page.cljc, or Closure namespace "" at line 176 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var add-client-page/validation-errors at line 176 src/cljs/web_main/pages/client_page.cljs
+WARNING: No such namespace: components, could not locate components.cljs, components.cljc, or Closure namespace "" at line 177 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var components/close-modal! at line 177 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var web-main.pages.client-page/add-client-modal-name at line 177 src/cljs/web_main/pages/client_page.cljs
+WARNING: No such namespace: add-client-page, could not locate add_client_page.cljs, add_client_page.cljc, or Closure namespace "" at line 178 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var add-client-page/reset-form! at line 178 src/cljs/web_main/pages/client_page.cljs
+WARNING: No such namespace: add-client-page, could not locate add_client_page.cljs, add_client_page.cljc, or Closure namespace "" at line 181 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var add-client-page/client at line 181 src/cljs/web_main/pages/client_page.cljs
+WARNING: No such namespace: components, could not locate components.cljs, components.cljc, or Closure namespace "" at line 187 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var components/modal-save at line 187 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var web-main.pages.client-page/on-add-client at line 190 src/cljs/web_main/pages/client_page.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Arg literal must be %, %& or %integer on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/add_workorder_page.cljs, line 30, column 82
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: No such namespace: components, could not locate components.cljs, components.cljc, or Closure namespace "" at line 177 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var components/close-modal! at line 177 src/cljs/web_main/pages/client_page.cljs
+WARNING: No such namespace: components, could not locate components.cljs, components.cljc, or Closure namespace "" at line 187 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var components/modal-save at line 187 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var web-main.pages.client-page/on-add-client at line 190 src/cljs/web_main/pages/client_page.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Arg literal must be %, %& or %integer on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/add_workorder_page.cljs, line 30, column 82
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: No such namespace: components, could not locate components.cljs, components.cljc, or Closure namespace "" at line 177 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var components/close-modal! at line 177 src/cljs/web_main/pages/client_page.cljs
+WARNING: No such namespace: components, could not locate components.cljs, components.cljc, or Closure namespace "" at line 187 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var components/modal-save at line 187 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var web-main.pages.client-page/on-add-client at line 190 src/cljs/web_main/pages/client_page.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Arg literal must be %, %& or %integer on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/add_workorder_page.cljs, line 30, column 82
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Arg literal must be %, %& or %integer on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/add_workorder_page.cljs, line 30, column 82
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Arg literal must be %, %& or %integer on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/add_workorder_page.cljs, line 30, column 82
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.pages.add-client-page/client at line 67 src/cljs/web_main/pages/clients_page.cljs
+WARNING: No such namespace: components, could not locate components.cljs, components.cljc, or Closure namespace "" at line 177 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var components/close-modal! at line 177 src/cljs/web_main/pages/client_page.cljs
+WARNING: No such namespace: components, could not locate components.cljs, components.cljc, or Closure namespace "" at line 187 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var components/modal-save at line 187 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var web-main.pages.client-page/on-add-client at line 190 src/cljs/web_main/pages/client_page.cljs
+WARNING: uuid already refers to: cljs.core/uuid being replaced by: cognitect.transit/uuid at line 323 resources/public/js/out/cognitect/transit.cljs
+WARNING: Required namespace not provided for web-main.pages.add-workorder-page
+[32mSuccessfully compiled "resources/public/js/app.js" in 8.277 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Required namespace not provided for web-main.pages.add-workorder-page
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.19 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.pages.client-page/on-add-client at line 191 src/cljs/web_main/pages/client_page.cljs
+WARNING: Required namespace not provided for web-main.pages.add-workorder-page
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.352 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Required namespace not provided for web-main.pages.add-workorder-page
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.206 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Required namespace not provided for web-main.pages.add-workorder-page
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.343 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.23 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.pages.client-page/add-client-modal-name at line 46 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var web-main.pages.client-page/add-client-modal-name at line 51 src/cljs/web_main/pages/client_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.355 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.367 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.171 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.174 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.17 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/client_page.cljs, line 156, column 43
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.344 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.335 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.205 seconds.[0m
+notifying browser that file changed:  /web_main/validation.js
+sending changed CSS file: resources/public/css/site.css
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.249 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.262 seconds.[0m
+notifying browser that file changed:  /web_main/validation.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.231 seconds.[0m
+notifying browser that file changed:  /web_main/data/workorders_data.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.178 seconds.[0m
+notifying browser that file changed:  /web_main/data/workorders_data.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.21 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.181 seconds.[0m
+notifying browser that file changed:  /web_main/data/workorders_data.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.196 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.178 seconds.[0m
+notifying browser that file changed:  /web_main/data/workorders_data.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.178 seconds.[0m
+notifying browser that file changed:  /web_main/data/workorders_data.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.176 seconds.[0m
+notifying browser that file changed:  /web_main/data/workorders_data.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.184 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js

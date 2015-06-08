@@ -44,3 +44,7 @@ body {
   top: -15;
   left: -8px;
 }
+
+textarea {
+    resize: none;
+}

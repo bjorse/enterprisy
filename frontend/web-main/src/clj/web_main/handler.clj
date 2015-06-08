@@ -34,7 +34,8 @@
     (GET "/clients" [query] {:body (clients-data/filter-clients query)})
     (GET "/clients/:id" [id] {:body (clients-data/get-client (Integer/parseInt id))})
     (POST "/clients" {body :body} (clients-data/add-client! (:client body)))
-    (GET "/workorders" {params :params} (workorders-data/filter-workorders params))){:keywords? true}))
+    (GET "/workorders" [client-id] {:body (workorders-data/filter-workorders-by-client-id client-id)})
+    (POST "/workorders" {body :body} (workorders-data/add-workorder! (:workorder body)))){:keywords? true}))
   (resources "/")
   (not-found "Not Found"))
 

@@ -1,4 +1,4 @@
-(ns client-data-service.config)
+(ns workorder-data-service.config)
 
 (def database-ip "192.168.200.100")
 

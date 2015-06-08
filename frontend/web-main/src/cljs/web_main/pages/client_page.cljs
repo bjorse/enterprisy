@@ -1,7 +1,12 @@
 (ns web-main.pages.client-page
   (:require [reagent.core :as reagent :refer [atom]]
+            [web-main.components :as components]
             [web-main.store :as store]
-            [web-main.data.clients-data :as clients-data]))
+            [web-main.data.clients-data :as clients-data]
+            [web-main.data.workorders-data :as workorders-data]
+            [web-main.pages.add-workorder-page :as add-workorder-page]))
+
+(def add-workorder-modal-name "add-workorder-modal")
 
 (def active-page (atom "profile"))
 
@@ -38,11 +43,12 @@
       [:button.btn.btn-danger.right [:strong "Deactivate client"]])])
 
 (defn add-workorder-button []
-  [:button.btn.btn-default {:on-click #(js/alert "Add work order!")} [:span.glyphicon.glyphicon-plus] " Add a new work order"])
+  [:button.btn.btn-default {:data-toggle "modal" :data-target (str "#" add-workorder-modal-name)}
+    [:span.glyphicon.glyphicon-plus] " Add a new work order"])
 
 (defn no-workorders-info []
   [:div.alert.alert-info.top-buffer "This client has no work orders! "
-    [:a.link {:on-click #(js/alert "Add work order!")} "Click here to add a work order."]])
+    [:a.link {:data-toggle "modal" :data-target (str "#" add-workorder-modal-name)} "Click here to add a work order."]])
 
 (defn get-status-row-color [status]
   (case status
@@ -167,9 +173,22 @@
           "profile" (profile-tab client)
           "workorders" (workorders-tab workorders client))]]))
 
+(defn on-add-workorder-response [response]
+  (if (contains? (:response response) :errors)
+    (reset! add-workorder-page/validation-errors (:errors (:response response)))
+    (do (components/close-modal! add-workorder-modal-name)
+        (add-workorder-page/reset-form!))))
+
+(defn on-add-workorder []
+  (workorders-data/add-workorder @add-workorder-page/workorder on-add-workorder-response))
+
 (defn render []
   (let [client @store/current-client
         workorders @store/current-client-workorders]
   [:div
+    (components/modal-save {:id add-workorder-modal-name
+                            :title (str "Add a new workorder for " (:firstname client) " " (:lastname client))
+                            :body add-workorder-page/render
+                            :on-save on-add-workorder})
     (when client
       (user-info client workorders))]))

@@ -1,13 +1,16 @@
 (ns web-main.data.workorders-data
-  (:require [web-main.static-data :as static-data]))
+  (:require [clj-http.client :as client]
+            [web-main.util :as util]))
 
-(def data (atom static-data/workorders-data))
+(def workorder-data-service-url "http://localhost:3020/workorders")
 
-(defn filter-workorders-by-client-id [client-id source]
-  (let [id (Integer/parseInt client-id)]
-    (filter #(= (:client-id %) id) source)))
+(defn filter-workorders-by-client-id [client-id]
+  (util/extract-body (client/get workorder-data-service-url {:query-params {:client-id client-id} :accept :json})))
 
-(defn filter-workorders [params]
-  (if (contains? params :client-id)
-    (filter-workorders-by-client-id (:client-id params) @data)
-    @data))
+(defn add-workorder! [workorder]
+  (println (str workorder))
+  (let [result (client/post workorder-data-service-url {:body (util/convert-map-to-json {:workorder workorder})
+                                                        :content-type :json
+                                                        :accept :json
+                                                        :throw-exceptions false})]
+    {:status (:status result) :body (util/extract-body result)}))

@@ -1,6 +1,15 @@
 # Development log
 This is a development log for each day anything was done on the project. Each post briefly covers completed tasks of the day and sums up time spent (expressed as hours).
 
+## 2016-06-08
+Ok, getting some static ip address for my virtual machine was no big deal after all. I created a shared network through VMWare Fusion and then declared a static ip on my VM. That was it! Amazing.
+
+Another thing that is amazing is that it's now possible to add work orders (the filter function in the GUI is broken, but who cares right?).
+
+Next up after some bug fixing is the work order process service and then it's time for the todo service!
+
+**Time spent:** 4
+
 ## 2015-06-07
 Today I consider the "Client data service" finished for what is needed right now. I got all the database access stuff ready (CRD, not the U yet), and it's publishing the "client.added" message on the "enterprisy" queue in RabbitMQ as well. Good times indeed!
 

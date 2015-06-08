@@ -1,21 +1,12 @@
 (ns web-main.pages.add-client-page
   (:require [reagent.core :as reagent :refer [atom]]
+            [web-main.validation :as validation]
             [web-main.components :as components]
             [web-main.data.clients-data :as clients-data]))
 
 (def client (atom {:firstname "" :lastname "" :email "" :birthdate "" :gender "Male"}))
 
 (def validation-errors (atom []))
-
-(defn any-validation-errors? []
-  (not-empty (seq @validation-errors)))
-
-(defn has-validation-error? [param]
-  (let [name (name param)]
-    (= true (some #(= name (:key %)) @validation-errors))))
-
-(defn get-validation-errors []
-  (map #(:text %) @validation-errors))
 
 (defn reset-client! []
   (reset! client {:firstname "" :lastname "" :email "" :birthdate "" :gender "Male"}))
@@ -32,7 +23,7 @@
                         :on-change #(swap! client assoc param (-> % .-target .-value))}])
 
 (defn input-form-group [{:keys [title placeholder param]}]
-  (let [has-error (has-validation-error? param)
+  (let [has-error (validation/has-validation-error? param @validation-errors)
         group-id (str "add-client-" (name param))]
     [:div.form-group {:class (when has-error "has-error")}
       [:label {:for group-id} title]
@@ -44,19 +35,9 @@
       [:span.glyphicon {:class icon}] (str " " text)
       [:input {:type "radio" :id id :name group-name}]]))
 
-(defn validation-error-row [error]
-  [:div
-    [:span.glyphicon.glyphicon-exclamation-sign] (str " " error)
-    [:br]])
-
 (defn render []
   [:div.container-fluid
-    (when (any-validation-errors?)
-      (let [errors (get-validation-errors)]
-        [:div.row
-          [:div.alert.alert-danger
-            (for [error errors]
-              ^{:key error} [validation-error-row error])]]))
+    (validation/render-errors @validation-errors)
     [:div.row
       [:div.col-md-6
         (input-form-group {:title "First name" :placeholder "Enter first name" :param :firstname})]

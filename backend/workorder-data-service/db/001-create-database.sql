@@ -1,0 +1,2 @@
+CREATE DATABASE workorders;
+GRANT ALL PRIVILEGES ON DATABASE workorders TO postgres;
