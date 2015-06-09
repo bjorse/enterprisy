@@ -10814,3 +10814,15 @@ notifying browser that file changed:  /web_main/pages/add_workorder_page.js
 notifying browser that file changed:  /web_main/core.js
 notifying browser that file changed:  /web_main/pages/clients_page.js
 notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.291 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.336 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.346 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.322 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js

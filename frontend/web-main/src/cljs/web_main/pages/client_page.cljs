@@ -52,17 +52,26 @@
 
 (defn get-status-row-color [status]
   (case status
-    "Rejected" "danger"
-    "In progress" "active"
-    "Finished" "success"
-    "Closed" "info"
+    "rejected" "danger"
+    "in-progress" "active"
+    "finished" "success"
+    "closed" "info"
     ""))
 
-(defn workorder-row [{:keys [id title status updated]}]
+(defn get-status-display-name [status-key]
+  (case (keyword status-key)
+    :new "New"
+    :approved "Approved"
+    :rejected "Rejected"
+    :in-progress "In progress"
+    :finished "Finished"
+    :closed "Closed"))
+
+(defn workorder-row [{:keys [id title status changed]}]
   [:tr {:class (get-status-row-color status)}
     [:td [:a {:href (str "#/workorders/" id)} title]]
-    [:td status]
-    [:td updated]])
+    [:td (get-status-display-name status)]
+    [:td changed]])
 
 (defn workorder-count-row [workorder-count]
   [:tr
@@ -83,20 +92,11 @@
           ^{:key (:id row)} [workorder-row row])
       (workorder-count-row (count source))]]])
 
-(defn get-filter-key-name [filter-key]
-  (case filter-key
-    :new "New"
-    :approved "Approved"
-    :rejected "Rejected"
-    :in-progress "In progress"
-    :finished "Finished"
-    :closed "Closed"))
-
 (defn filter-workorder [filters {:keys [status]}]
-  (some #(= status %) filters))
+  (some #(= (keyword status) %) filters))
 
 (defn active-filters []
-  (map #(get-filter-key-name %) (keys (into {} (filter val @status-filters)))))
+  (keys (into {} (filter val @status-filters))))
 
 (defn filter-workorders [workorders]
   (let [filters (active-filters)]

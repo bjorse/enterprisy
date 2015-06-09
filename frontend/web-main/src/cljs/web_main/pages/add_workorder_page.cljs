@@ -54,7 +54,7 @@
       [:div.col-md-12
         (textarea-form-group {:title "Description" :placeholder "Enter description (optional)" :param :description :rows "5"})]]
     [:div.row
-      [:div.col-md-6
+      [:div.col-md-4
         (input-form-group {:title "Estimated time (hours)" :placeholder "" :param :estimated-time})]
-      [:div.col-md-6
+      [:div.col-md-8
         [:button.btn.btn-default.btn-xs.right {:on-click #(reset-form!)} "Reset form"]]]])
