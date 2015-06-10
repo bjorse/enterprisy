@@ -9,7 +9,7 @@
 
 (def ^{:const true} default-exchange-name "")
 
-(def queue-name "enterprisy.process")
+(def queue-name "enterprisy.process.workorders")
 
 (def amqp-url (str "amqp://enterprisy:enterprisy@" config/queue-ip ":5672"))
 
