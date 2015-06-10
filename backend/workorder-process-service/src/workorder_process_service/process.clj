@@ -2,8 +2,11 @@
   (:require [workorder-process-service.process-db :as db]
             [workorder-process-service.queuing :as queing]))
 
+(def subscribed-messages ["workorder.added" "workorder.queue"])
+
 (defn get-message-type [status]
   (case status
+    "new" queing/workorder-new-message-type
     "accepted" queing/workorder-accepted-message-type
     "rejected" queing/workorder-rejected-message-type
     "in-progress" queing/workorder-in-progress-message-type
@@ -18,8 +21,8 @@
    :client-id client-id})
 
 (defn handle-message [type message]
-  (when (= type "workorder.updated")
-    (println (str "Handling workorder.updated: " message))
+  (when (some #(= % type) subscribed-messages)
+    (println (str "Handling message type '" type "': " message))
     (let [workorder-id (:id message)
           status (:status message)
           client-id (:client-id message)

@@ -23,4 +23,4 @@
 (defn add-todo-item! [{:keys [title type type-id]}]
   (handle-insert-result (sql/insert! db :todo {:title title
                                                :type type
-                                               :type-id type-id})))
+                                               :type_id type-id})))

@@ -1,6 +1,6 @@
 (ns workorder-process-service.core
   (:require [workorder-process-service.process :as process]
-            [workorder-process-service.queuing :as queing]))
+            [workorder-process-service.queuing :as queuing]))
 
 (defn -main [& args]
-  (queing/listen! process/handle-message))
+  (queuing/listen! process/handle-message))

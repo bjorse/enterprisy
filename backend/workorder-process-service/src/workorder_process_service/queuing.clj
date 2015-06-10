@@ -9,9 +9,13 @@
 
 (def ^{:const true} default-exchange-name "")
 
-(def queue-name "enterprisy")
+(def in-queue-name "enterprisy.data")
+
+(def out-queue-name "enterprisy.process")
 
 (def amqp-url (str "amqp://enterprisy:enterprisy@" config/queue-ip ":5672"))
+
+(def workorder-new-message-type "workorder.new")
 
 (def workorder-accepted-message-type "workorder.accepted")
 
@@ -38,13 +42,13 @@
   (let [conn (rmq/connect {:uri amqp-url})
         ch (lch/open conn)]
     (println (format "Connected to RabbitMQ. Channel id: %d" (.getChannelNumber ch)))
-    (lq/declare ch queue-name {:exclusive false :auto-delete false})
-    (lc/subscribe ch queue-name (wrap-message-handler message-handler) {:auto-ack true})))
+    (lq/declare ch in-queue-name {:exclusive false :auto-delete false})
+    (lc/subscribe ch in-queue-name (wrap-message-handler message-handler) {:auto-ack true})))
 
 (defn publish! [message type]
   (let [conn (rmq/connect {:uri amqp-url})
         ch (lch/open conn)
         message-as-json (util/convert-map-to-json message)]
-    (lb/publish ch default-exchange-name queue-name message-as-json {:content-type "application/json" :type type})
+    (lb/publish ch default-exchange-name out-queue-name message-as-json {:content-type "application/json" :type type})
     (rmq/close ch)
     (rmq/close conn)))

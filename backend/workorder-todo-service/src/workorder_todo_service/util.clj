@@ -1,4 +1,4 @@
-(ns workorder-process-service.util
+(ns workorder-todo-service.util
   (:require [clojure.string :as string]
             [clojure.data.json :as json]
             [clj-time.coerce :as tc]))
@@ -8,6 +8,9 @@
 
 (defn convert-map-to-json [content]
   (json/write-str content :key-fn name))
+
+(defn extract-body [result]
+  (convert-json-to-map (:body result)))
 
 (defn format-long-date [date]
   (.format (java.text.SimpleDateFormat. "yyyy-MM-dd HH:mm") date))

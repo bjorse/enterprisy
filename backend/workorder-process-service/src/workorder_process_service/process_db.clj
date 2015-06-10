@@ -24,6 +24,7 @@
       (merge added-process {:added (util/format-long-date (:added added-process))}))))
 
 (defn add-process-status! [{:keys [workorder-id client-id status]}]
-  (handle-insert-result (sql/insert! db {:workorder-id workorder-id
-                                         :client-id client-id
-                                         :status status})))
+  (println (str "Data to add: id: " workorder-id ", client-id: " client-id", status: " status))
+  (handle-insert-result (sql/insert! db :workorder_process {:workorder_id workorder-id
+                                                            :client_id client-id
+                                                            :status status})))

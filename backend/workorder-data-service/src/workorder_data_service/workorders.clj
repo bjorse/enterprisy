@@ -74,9 +74,9 @@
         (if-let [result (db/add-workorder! (format-workorder fixed-workorder))]
           (do (println (str "Added workorder: " result))
               (queuing/publish! result queuing/add-workorder-message-type)
-              {:status 200 :body result}))
-        {:status 500}))
-      {:status 422 :body {:errors validation-errors}}))
+              {:status 200 :body result})
+        {:status 500})
+      {:status 422 :body {:errors validation-errors}}))))
 
 (defn update-workorder! [workorder]
   (let [workorder-id (:id workorder)
@@ -87,6 +87,6 @@
       (if-let [result (db/update-workorder! (format-workorder fixed-workorder))]
         (do (println (str "Updated workorder: " result))
             (queuing/publish! result queuing/update-workorder-message-type)
-            {:status 200 :body result}))
-        {:status 500}))
-      {:status 422 :body {:errors validation-errors}})
+            {:status 200 :body result})
+        {:status 500})
+      {:status 422 :body {:errors validation-errors}})))

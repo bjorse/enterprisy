@@ -7,21 +7,24 @@
             [todo-data-service.queuing :as queuing]
             [todo-data-service.util :as util]))
 
-(def number-format #"^([1-9][0-9]*)$")
+(def number-format #"^[1-9]\d*$")
 
 (defn numeric-and-positive? [value]
-  (re-matches number-format value))
+  (if (nil? value)
+    false
+    (re-matches number-format value)))
 
 (defn validate-todo-item [{:keys [title type type-id]}]
   (let [errors (list (when (string/blank? title) {:key "title" :text "Title cannot be empty!"})
                      (when (string/blank? type) {:key "type" :text "Type cannot be empty!"})
-                     (when-not (numeric-and-positive? type-id) {:key "type-id" :text "Type-id must be a numeric value and positive!"}))]
+                     (when-not (numeric-and-positive? (str type-id)) {:key "type-id" :text "Type-id must be a numeric value and positive!"}))]
     (filter #(not (= nil %)) errors)))
 
-(defn format-todo-item [{:keys [title type type-id]}]
-  {:title title
+(defn format-todo-item [{:keys [id title type type_id]}]
+  {:id id
+   :title title
    :type type
-   :type-id (util/convert-to-number type-id)})
+   :type-id (util/convert-to-number type_id)})
 
 (defn get-todo-items []
   (db/get-todo-items))
