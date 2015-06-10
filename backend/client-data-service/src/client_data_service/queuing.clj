@@ -15,19 +15,6 @@
 
 (def add-client-message-type "client.added")
 
-(defn message-handler
-  [ch {:keys [content-type delivery-tag type] :as meta} ^bytes payload]
-  (println
-    (format "Received a message from queue: %s, delivery tag: %d, content type: %s, type: %s"
-    (String. payload "UTF-8") delivery-tag content-type type)))
-
-(defn listen! []
-  (let [conn (rmq/connect {:uri amqp-url})
-        ch (lch/open conn)]
-    (println (format "Connected to RabbitMQ. Channel id: %d" (.getChannelNumber ch)))
-    (lq/declare ch queue-name {:exclusive false :auto-delete true})
-    (lc/subscribe ch queue-name message-handler {:auto-ack true})))
-
 (defn publish! [message type]
   (let [conn (rmq/connect {:uri amqp-url})
         ch (lch/open conn)

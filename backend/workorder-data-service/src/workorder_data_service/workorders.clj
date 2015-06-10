@@ -7,7 +7,7 @@
             [workorder-data-service.queuing :as queuing]
             [workorder-data-service.util :as util]))
 
-(def valid-status ["new" "approved" "rejected" "in-progress" "finished" "closed"])
+(def valid-status ["new" "approved" "rejected" "in-progress" "aborted" "finished" "closed"])
 
 (def number-format #"^(0|[1-9][0-9]*)$")
 
@@ -18,17 +18,17 @@
   (case status
     "new" ["approved" "rejected"]
     "approved" ["in-progress"]
-    "in-progress" ["finished"]
+    "in-progress" ["aborted" "finished"]
     "finished" ["closed"]
     nil))
 
 (defn validate-new-status [old-status new-status]
   (if (= old-status new-status)
     true
-    (do (let [allowed-new-status (valid-status-gotos old-status)]
-          (if (some new-status allowed-new-status)
-            true
-            false)))))
+    (let [allowed-new-status (valid-status-gotos old-status)]
+      (if (some new-status allowed-new-status)
+        true
+        false))))
 
 (defn validate-workorder [{:keys [title description estimated-time client-id]}]
   (let [errors (list (when (string/blank? title) {:key "title" :text "Title cannot be empty!"})
@@ -70,14 +70,13 @@
   (println (str "Trying to add this workorder: " workorder))
   (let [validation-errors (validate-workorder workorder)]
     (if (empty? validation-errors)
-      (do
-        (let [fixed-workorder (fix-workorder-for-create workorder)]
-          (if-let [result (db/add-workorder! (format-workorder fixed-workorder))]
-            (do (println (str "Added workorder: " result))
-                (queuing/publish! result queuing/add-workorder-message-type)
-                {:status 200 :body result}))
-          {:status 500}))
-      {:status 422 :body {:errors validation-errors}})))
+      (let [fixed-workorder (fix-workorder-for-create workorder)]
+        (if-let [result (db/add-workorder! (format-workorder fixed-workorder))]
+          (do (println (str "Added workorder: " result))
+              (queuing/publish! result queuing/add-workorder-message-type)
+              {:status 200 :body result}))
+        {:status 500}))
+      {:status 422 :body {:errors validation-errors}}))
 
 (defn update-workorder! [workorder]
   (let [workorder-id (:id workorder)
@@ -85,10 +84,9 @@
         fixed-workorder (fix-workorder-for-update old-workorder workorder)
         validation-errors (validate-workorder-update old-workorder fixed-workorder)]
     (if (empty? validation-errors)
-      (do
-        (if-let [result (db/update-workorder! (format-workorder fixed-workorder))]
-          (do (println (str "Updated workorder: " result))
-              (queuing/publish! result queuing/update-workorder-message-type)
-              {:status 200 :body result}))
+      (if-let [result (db/update-workorder! (format-workorder fixed-workorder))]
+        (do (println (str "Updated workorder: " result))
+            (queuing/publish! result queuing/update-workorder-message-type)
+            {:status 200 :body result}))
         {:status 500}))
-      {:status 422 :body {:errors validation-errors}}))
+      {:status 422 :body {:errors validation-errors}})

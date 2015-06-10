@@ -16,6 +16,3 @@
   (-> (handler/api app-routes)
       (middleware/wrap-json-body {:keywords? true})
       (middleware/wrap-json-response)))
-
-(defn init []
-  (queuing/listen!))

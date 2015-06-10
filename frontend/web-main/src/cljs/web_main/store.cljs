@@ -3,6 +3,8 @@
 
 (def clients (atom []))
 
+(def current-client-id (atom nil))
+
 (def current-client (atom nil))
 
 (def current-client-workorders (atom []))

@@ -12,8 +12,7 @@
                  [ring/ring-json "0.3.1"]
                  [clj-time "0.9.0"]]
   :plugins [[lein-ring "0.8.13"]]
-  :ring {:init client-data-service.handler/init
-         :handler client-data-service.handler/app
+  :ring {:handler client-data-service.handler/app
          :port 3010}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
