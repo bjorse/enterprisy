@@ -3,6 +3,8 @@
 
 (def base-url "/api/clients")
 
+(def default-client {:firstname "" :lastname "" :email "" :birthdate "" :gender ""})
+
 (defn get-clients [callback query]
   (GET base-url {:handler callback :params {:query query}}))
 

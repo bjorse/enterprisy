@@ -11130,3 +11130,815 @@ notifying browser that file changed:  /web_main/pages/todo_page.js
 [0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
 [32mSuccessfully compiled "resources/public/js/app.js" in 0.2 seconds.[0m
 notifying browser that file changed:  /web_main/pages/todo_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.253 seconds.[0m
+notifying browser that file changed:  /web_main/store.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.288 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.data.workorders-data/get-workorder at line 89 src/cljs/web_main/core.cljs
+WARNING: Use of undeclared Var web-main.data.workorders-data/get-workorder at line 89 src/cljs/web_main/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.339 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.186 seconds.[0m
+notifying browser that file changed:  /web_main/data/workorders_data.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.344 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.pages.add-workorder-page/param at line 51 src/cljs/web_main/pages/add_workorder_page.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/add_workorder_page.cljs, line 69, column 89
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.pages.add-workorder-page/param at line 51 src/cljs/web_main/pages/add_workorder_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.297 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.202 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/pages/todo_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/data/todo_data.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.256 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.693 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.243 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.251 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.242 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.24 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.243 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.251 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.245 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.243 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.244 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.243 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.241 seconds.[0m
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.188 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/pages/todo_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/data/todo_data.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.192 seconds.[0m
+notifying browser that file changed:  /web_main/data/workorders_data.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/cljs/web_main/pages/untitled.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4551.invoke (core.clj:2622)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$map$fn__4551.invoke (core.clj:2614)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core.protocols/fn (protocols.clj:151)
+    clojure.core.protocols$fn__6476$G__6471__6485.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:81)
+    clojure.core.protocols$fn__6450$G__6445__6463.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6515)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/cljs/web_main/pages/workorder-page.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4551.invoke (core.clj:2622)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$map$fn__4551.invoke (core.clj:2614)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core.protocols/fn (protocols.clj:151)
+    clojure.core.protocols$fn__6476$G__6471__6485.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:81)
+    clojure.core.protocols$fn__6450$G__6445__6463.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6515)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.185 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.177 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.3 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/core.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.189 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/pages/todo_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/data/todo_data.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.core/% at line 95 src/cljs/web_main/core.cljs
+WARNING: Use of undeclared Var web-main.core/% at line 95 src/cljs/web_main/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.362 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.192 seconds.[0m
+notifying browser that file changed:  /web_main/data/clients_data.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.core/% at line 95 src/cljs/web_main/core.cljs
+WARNING: Use of undeclared Var web-main.core/% at line 95 src/cljs/web_main/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.349 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.178 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.core/% at line 95 src/cljs/web_main/core.cljs
+WARNING: Use of undeclared Var web-main.core/% at line 95 src/cljs/web_main/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.347 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.289 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.29 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.202 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/workorder-page.cljs, line 7, column 32
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.183 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.174 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.174 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.pages.workorder-page/workorder at line 5 src/cljs/web_main/pages/workorder-page.cljs
+WARNING: Use of undeclared Var web-main.pages.workorder-page/workorder at line 5 src/cljs/web_main/pages/workorder-page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.233 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/workorder-page.cljs, line 5, column 44
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.175 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.191 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.178 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.178 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.176 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/workorder-page.cljs, line 5, column 44
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.18 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.182 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.178 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.186 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.187 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.198 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.194 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.183 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.186 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.19 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.195 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/web_main/pages/workorder-page.cljs
+ at clojure.core$ex_info.invoke (core.clj:4591)
+    cljs.compiler$compile_file$fn__3059.invoke (compiler.cljc:1146)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1109)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1181)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+    clojure.core$map$fn__4551.invoke (core.clj:2620)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:628)
+    clojure.core$mapcat.doInvoke (core.clj:2658)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1475)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:153)
+    figwheel_sidecar.auto_builder$default_build_options$fn__17621.invoke (auto_builder.clj:77)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__17654.invoke (auto_builder.clj:179)
+    figwheel_sidecar.auto_builder$warning$fn__17618.invoke (auto_builder.clj:73)
+    clojurescript_build.auto$time_build$fn__17414.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__17423.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__17417.invoke (auto.clj:60)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/web_main/pages/workorder-page.cljs
+ at clojure.core$ex_info.invoke (core.clj:4591)
+    cljs.compiler$compile_file$fn__3059.invoke (compiler.cljc:1146)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1109)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1181)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+    clojure.core$map$fn__4551.invoke (core.clj:2620)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:628)
+    clojure.core$mapcat.doInvoke (core.clj:2658)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1475)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:153)
+    figwheel_sidecar.auto_builder$default_build_options$fn__17621.invoke (auto_builder.clj:77)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__17654.invoke (auto_builder.clj:179)
+    figwheel_sidecar.auto_builder$warning$fn__17618.invoke (auto_builder.clj:73)
+    clojurescript_build.auto$time_build$fn__17414.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__17423.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__17417.invoke (auto.clj:60)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.236 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.234 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.206 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.209 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.207 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: EOF while reading, starting at line 34 and column 3 on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/workorder-page.cljs, line 68, column 1
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.pages.workorder-page/text at line 53 src/cljs/web_main/pages/workorder-page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.258 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.pages.workorder-page/text at line 53 src/cljs/web_main/pages/workorder-page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.249 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.21 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.215 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/workorder-page.cljs, line 55, column 83
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.23 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.22 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/data/workorders_data.cljs, line 24, column 67
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/web_main/pages/workorder-page.cljs
+ at clojure.core$ex_info.invoke (core.clj:4591)
+    cljs.compiler$compile_file$fn__3059.invoke (compiler.cljc:1146)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1109)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1181)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+    clojure.core$map$fn__4551.invoke (core.clj:2620)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:628)
+    clojure.core$mapcat.doInvoke (core.clj:2658)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1475)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:153)
+    figwheel_sidecar.auto_builder$default_build_options$fn__17621.invoke (auto_builder.clj:77)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__17654.invoke (auto_builder.clj:179)
+    figwheel_sidecar.auto_builder$warning$fn__17618.invoke (auto_builder.clj:73)
+    clojurescript_build.auto$time_build$fn__17414.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__17423.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__17417.invoke (auto.clj:60)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/web_main/pages/workorder-page.cljs
+ at clojure.core$ex_info.invoke (core.clj:4591)
+    cljs.compiler$compile_file$fn__3059.invoke (compiler.cljc:1146)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1109)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1181)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+    clojure.core$map$fn__4551.invoke (core.clj:2620)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:628)
+    clojure.core$mapcat.doInvoke (core.clj:2658)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1475)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:153)
+    figwheel_sidecar.auto_builder$default_build_options$fn__17621.invoke (auto_builder.clj:77)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__17654.invoke (auto_builder.clj:179)
+    figwheel_sidecar.auto_builder$warning$fn__17618.invoke (auto_builder.clj:73)
+    clojurescript_build.auto$time_build$fn__17414.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__17423.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__17417.invoke (auto.clj:60)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.323 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.234 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.233 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.228 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.225 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.251 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.235 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.233 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.232 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.253 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/pages/workorder-page.cljs, line 82, column 68
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.232 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.239 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.234 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.228 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.232 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.23 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.259 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.24 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.data.workorders-data/reject-workorder at line 49 src/cljs/web_main/pages/workorder-page.cljs
+WARNING: Use of undeclared Var web-main.data.workorders-data/accept-workorder at line 51 src/cljs/web_main/pages/workorder-page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.3 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.data.workorders-data/reject-workorder at line 49 src/cljs/web_main/pages/workorder-page.cljs
+WARNING: Use of undeclared Var web-main.data.workorders-data/accept-workorder at line 51 src/cljs/web_main/pages/workorder-page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.288 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.data.workorders-data/reject-workorder at line 49 src/cljs/web_main/pages/workorder-page.cljs
+WARNING: Use of undeclared Var web-main.data.workorders-data/accept-workorder at line 51 src/cljs/web_main/pages/workorder-page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.295 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.data.workorders-data/reject-workorder at line 49 src/cljs/web_main/pages/workorder-page.cljs
+WARNING: Use of undeclared Var web-main.data.workorders-data/accept-workorder at line 51 src/cljs/web_main/pages/workorder-page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.287 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.data.workorders-data/reject-workorder at line 49 src/cljs/web_main/pages/workorder-page.cljs
+WARNING: Use of undeclared Var web-main.data.workorders-data/accept-workorder at line 51 src/cljs/web_main/pages/workorder-page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.288 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.data.workorders-data/reject-workorder at line 49 src/cljs/web_main/pages/workorder-page.cljs
+WARNING: Use of undeclared Var web-main.data.workorders-data/accept-workorder at line 51 src/cljs/web_main/pages/workorder-page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.291 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.data.workorders-data/reject-workorder at line 49 src/cljs/web_main/pages/workorder-page.cljs
+WARNING: Use of undeclared Var web-main.data.workorders-data/accept-workorder at line 51 src/cljs/web_main/pages/workorder-page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.3 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.data.workorders-data/reject-workorder at line 49 src/cljs/web_main/pages/workorder_page.cljs
+WARNING: Use of undeclared Var web-main.data.workorders-data/accept-workorder at line 51 src/cljs/web_main/pages/workorder_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.306 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/data/workorders_data.cljs, line 24, column 67
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Wrong number of args (2) passed to web-main.data.workorders-data/update-workorder at line 28 src/cljs/web_main/data/workorders_data.cljs
+WARNING: Wrong number of args (2) passed to web-main.data.workorders-data/update-workorder at line 31 src/cljs/web_main/data/workorders_data.cljs
+WARNING: Wrong number of args (2) passed to web-main.data.workorders-data/update-workorder at line 34 src/cljs/web_main/data/workorders_data.cljs
+WARNING: Wrong number of args (2) passed to web-main.data.workorders-data/update-workorder at line 40 src/cljs/web_main/data/workorders_data.cljs
+WARNING: Wrong number of args (2) passed to web-main.data.workorders-data/update-workorder at line 43 src/cljs/web_main/data/workorders_data.cljs
+WARNING: uuid already refers to: cljs.core/uuid being replaced by: cognitect.transit/uuid at line 323 resources/public/js/out/cognitect/transit.cljs
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.2 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/pages/todo_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/data/todo_data.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.653 seconds.[0m
+notifying browser that file changed:  /web_main/data/workorders_data.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.182 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/pages/todo_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/data/todo_data.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.234 seconds.[0m
+notifying browser that file changed:  /web_main/data/workorders_data.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.202 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/pages/todo_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/data/todo_data.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.196 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/pages/todo_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/data/todo_data.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.226 seconds.[0m
+notifying browser that file changed:  /web_main/data/workorders_data.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.184 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/pages/todo_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/data/todo_data.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.229 seconds.[0m
+notifying browser that file changed:  /web_main/rest.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.193 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/pages/todo_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/data/todo_data.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.19 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/pages/todo_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/data/todo_data.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.data.workorders-data/approve-workorder at line 51 src/cljs/web_main/pages/workorder_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.31 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.215 seconds.[0m
+notifying browser that file changed:  /web_main/data/workorders_data.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.259 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.359 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.349 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+sending changed CSS file: resources/public/css/site.css
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.348 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.345 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.339 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.348 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+sending changed CSS file: resources/public/css/site.css
+sending changed CSS file: resources/public/css/site.css
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.345 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.341 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.248 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js

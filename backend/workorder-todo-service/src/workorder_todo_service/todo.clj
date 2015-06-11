@@ -24,17 +24,19 @@
   {:title title
    :workorder-id (:workorder-id workorder)
    :workorder-status (:status workorder)
-   :client-id (:client-id workorder)})
+   :client-id (:client-id workorder)
+   :priority (:priority workorder)})
 
-(defn get-external-workorder-todo-item [{:keys [title workorder-id]}]
+(defn get-external-workorder-todo-item [{:keys [title workorder-id priority]}]
   {:title title
    :type "workorder"
-   :type-id workorder-id})
+   :type-id workorder-id
+   :priority priority})
 
 (defn get-todo-title-by-message-type [type]
   (case type
-    "workorder.new" "Workorder needs to be accepted or rejected"
-    "workorder.accepted" "Workorder needs to be started"
+    "workorder.new" "Workorder needs to be approved or rejected"
+    "workorder.approved" "Workorder needs to be started"
     "workorder.in-progress" "Workorder needs to be finished"
     "workorder.finished" "Workorder needs to be closed"
     nil))

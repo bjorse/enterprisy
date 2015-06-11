@@ -4,12 +4,12 @@
             [web-main.components :as components]
             [web-main.data.workorders-data :as workorders-data]))
 
-(def workorder (atom {:title "" :description "" :estimated-time "0"}))
+(def workorder (atom {:title "" :description "" :estimated-time "0" :priority "3"}))
 
 (def validation-errors (atom []))
 
 (defn reset-workorder! []
-  (reset! workorder {:title "" :description "" :estimated-time "0"}))
+  (reset! workorder {:title "" :description "" :estimated-time "0" :priority "3"}))
 
 (defn reset-form! []
   (reset-workorder!)
@@ -44,6 +44,11 @@
      [:label {:for group-id} title]
      (textarea-form {:id group-id :placeholder placeholder :param param :rows rows})]))
 
+(defn priority-button [{:keys [text value severity]}]
+  (let [selected (= value (:priority @workorder))]
+    [:a.btn.btn-sm {:class (if selected (str "active " severity) "btn-default")
+                    :on-click #(swap! workorder assoc :priority value)} text]))
+
 (defn render []
   [:div.container-fluid
     (validation/render-errors @validation-errors)
@@ -56,5 +61,15 @@
     [:div.row
       [:div.col-md-4
         (input-form-group {:title "Estimated time (hours)" :placeholder "" :param :estimated-time})]
-      [:div.col-md-8
+      [:div.col-md-7
+        [:div.form-group
+          [:label {:for "priority-group"} "Priority"]
+          [:div.btn-group {:role "group"}
+            (priority-button {:text "Very low" :value "1" :severity "btn-info"})
+            (priority-button {:text "Low" :value "2" :severity "btn-primary"})
+            (priority-button {:text "Normal" :value "3" :severity "btn-success"})
+            (priority-button {:text "High" :value "4" :severity "btn-warning"})
+            (priority-button {:text "Very high" :value "5" :severity "btn-danger"})]]]]
+   [:div.row
+      [:div.col-md-12
         [:button.btn.btn-default.btn-xs.right {:on-click #(reset-form!)} "Reset form"]]]])

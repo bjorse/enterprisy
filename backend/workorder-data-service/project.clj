@@ -5,6 +5,7 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/java.jdbc "0.3.7"]
                  [org.clojure/data.json "0.2.6"]
+                 [java-jdbc/dsl "0.1.3"]
                  [postgresql/postgresql "9.3-1102.jdbc41"]
                  [com.novemberain/langohr "3.2.0"]
                  [compojure "1.3.1"]

@@ -10,6 +10,7 @@
               [web-main.pages.clients-page :as clients-page]
               [web-main.pages.client-page :as client-page]
               [web-main.pages.todo-page :as todo-page]
+              [web-main.pages.workorder-page :as workorder-page]
               [web-main.data.clients-data :as clients-data]
               [web-main.data.workorders-data :as workorders-data]
               [web-main.data.todo-data :as todo-data])
@@ -34,6 +35,9 @@
   [:div
     [:h1 "Work orders!"]])
 
+(defn workorder-page []
+  (workorder-page/render store/current-workorder))
+
 (defn current-page-name []
   (session/get :current-page-name))
 
@@ -48,6 +52,13 @@
 (defn reset-current-client! []
   (reset! store/current-client nil)
   (reset! store/current-client-workorders []))
+
+(defn update-current-workorder [workorder]
+  (let [client-id (:client-id workorder)
+        fixed-workorder (merge workorder {:client clients-data/default-client})]
+    (.log js/console (str workorder))
+    (reset! store/current-workorder fixed-workorder)
+    (clients-data/get-client client-id #(swap! store/current-workorder assoc :client %))))
 
 ;; -------------------------
 ;; Routes
@@ -78,6 +89,13 @@
   (workorders-data/get-workorders #(reset! store/workorders %))
   (session/put! :current-page-name "workorders")
   (session/put! :current-page #'workorders-page))
+
+(secretary/defroute "/workorders/:id" [id]
+  (let [workorder-id (js/parseInt id)]
+    (reset! store/current-workorder nil)
+    (workorders-data/get-workorder workorder-id #(update-current-workorder %))
+    (session/put! :current-page-name "workorders")
+    (session/put! :current-page #'workorder-page)))
 
 ;; -------------------------
 ;; History

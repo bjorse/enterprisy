@@ -34,4 +34,11 @@
        :response-format (ajax/json-response-format {:keywords? true})})))
 
 (defn PUT [url opts]
-  (ajax/PUT url (update-opts opts)))
+  (let [new-opts (update-opts opts)]
+    (ajax/ajax-request
+      {:uri url
+       :method :put
+       :params (:params new-opts)
+       :handler (wrap-handler (:handler new-opts))
+       :format (ajax/json-request-format)
+       :response-format (ajax/json-response-format {:keywords? true})})))

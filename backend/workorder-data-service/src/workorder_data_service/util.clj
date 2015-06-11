@@ -1,9 +1,10 @@
 (ns workorder-data-service.util
-  (:require [clojure.data.json :as json]
+  (:require [clojure.string :as string]
+            [clojure.data.json :as json]
             [clj-time.coerce :as tc]))
 
 (defn convert-json-to-map [content]
-  (json/read-str content :key-fn keyword))
+  (json/read-str content :key-fn #(keyword (string/replace % "_" "-"))))
 
 (defn convert-map-to-json [content]
   (json/write-str content :key-fn name))

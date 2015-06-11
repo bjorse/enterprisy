@@ -70,14 +70,14 @@
 (defn workorder-row [{:keys [id title status changed]}]
   [:tr {:class (get-status-row-color status)}
     [:td [:a {:href (str "#/workorders/" id)} title]]
-    [:td (get-status-display-name status)]
-    [:td changed]])
+    [:td.no-wrap (get-status-display-name status)]
+    [:td.no-wrap changed]])
 
 (defn workorder-count-row [workorder-count]
   [:tr
+    [:td [:small (str "Number of work orders listed: " workorder-count)]]
     [:td]
-    [:td]
-    [:td [:small.pull-right (str "Number of work orders listed: " workorder-count)]]])
+    [:td]])
 
 (defn workorder-table [source]
   [:div

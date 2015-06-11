@@ -6,5 +6,4 @@
 
 (defn get-todo-items []
   (let [result (client/get todo-data-service-url)]
-    (println (str "Todo result from server: " (str result)))
     (util/extract-body (client/get todo-data-service-url))))

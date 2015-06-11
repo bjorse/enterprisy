@@ -1,5 +1,5 @@
 (ns web-main.handler
-  (:require [compojure.core :refer [GET POST defroutes context]]
+  (:require [compojure.core :refer [GET POST PUT defroutes context]]
             [compojure.route :refer [not-found resources]]
             [ring.middleware.defaults :refer [site-defaults wrap-defaults]]
             [ring.middleware.json :refer [wrap-json-body wrap-json-response]]
@@ -35,8 +35,10 @@
     (GET "/clients" [query] {:body (clients-data/filter-clients query)})
     (GET "/clients/:id" [id] {:body (clients-data/get-client (Integer/parseInt id))})
     (POST "/clients" {body :body} (clients-data/add-client! (:client body)))
-    (GET "/workorders" [client-id] {:body (workorders-data/filter-workorders-by-client-id client-id)})
+    (GET "/workorders" [client-id] {:body (workorders-data/filter-workorders-by-client-id (Integer/parseInt client-id))})
+    (GET "/workorders/:id" [id] {:body (workorders-data/get-workorder (Integer/parseInt id))})
     (POST "/workorders" {body :body} (workorders-data/add-workorder! (:workorder body)))
+    (PUT "/workorders" {body :body} (workorders-data/update-workorder! (:workorder body)))
     (GET "/todo-items" [] {:body (todo-data/get-todo-items)})){:keywords? true}))
   (resources "/")
   (not-found "Not Found"))

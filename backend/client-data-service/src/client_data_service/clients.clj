@@ -74,6 +74,6 @@
           (if-let [result (db/add-client! fixed-client)]
             (do (println (str "Added client: " result))
                 (queuing/publish! result queuing/add-client-message-type)
-                {:status 200 :body result}))
-          {:status 500}))
+                {:status 200 :body result})
+          {:status 500})))
       {:status 422 :body {:errors validation-errors}})))

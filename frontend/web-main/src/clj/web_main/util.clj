@@ -9,3 +9,6 @@
 
 (defn extract-body [result]
   (convert-json-to-map (:body result)))
+
+(defn remove-nil-values [map-to-clean]
+  (into {} (remove #(nil? (val %)) map-to-clean)))

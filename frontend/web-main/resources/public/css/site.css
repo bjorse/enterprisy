@@ -4,6 +4,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+textarea {
+    resize: none;
+}
+
 .fixed {
   position: fixed;
 }
@@ -45,6 +49,6 @@ body {
   left: -8px;
 }
 
-textarea {
-    resize: none;
+.no-wrap {
+    white-space: nowrap;
 }

@@ -17,7 +17,7 @@
 
 (def workorder-new-message-type "workorder.new")
 
-(def workorder-accepted-message-type "workorder.accepted")
+(def workorder-approved-message-type "workorder.approved")
 
 (def workorder-rejected-message-type "workorder.rejected")
 

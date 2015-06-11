@@ -9,23 +9,30 @@
 
 (def number-format #"^[1-9]\d*$")
 
+(def prority-format #"^[1-5]$")
+
 (defn numeric-and-positive? [value]
   (if (nil? value)
     false
     (re-matches number-format value)))
 
-(defn validate-todo-item [{:keys [title type type-id]}]
+(defn valid-priority? [value]
+  (re-matches prority-format value))
+
+(defn validate-todo-item [{:keys [title type type-id priority]}]
   (let [errors (list (when (string/blank? title) {:key "title" :text "Title cannot be empty!"})
                      (when (string/blank? type) {:key "type" :text "Type cannot be empty!"})
-                     (when-not (numeric-and-positive? (str type-id)) {:key "type-id" :text "Type-id must be a numeric value and positive!"}))]
+                     (when-not (numeric-and-positive? (str type-id)) {:key "type-id" :text "Type-id must be a numeric value and positive!"})
+                     (when-not (valid-priority? (str priority)) {:key "priority" :text "Priority must be numeric value in range 1-5!"}))]
     (filter #(not (= nil %)) errors)))
 
-(defn format-todo-item [{:keys [id title type type_id added]}]
+(defn format-todo-item [{:keys [id title type type_id priority added]}]
   {:id id
    :title title
    :type type
    :type-id (util/convert-to-number type_id)
-   :added (util/format-short-date added)})
+   :priority (util/convert-to-number priority)
+   :added added})
 
 (defn get-todo-items []
   (map #(format-todo-item %) (db/get-todo-items)))

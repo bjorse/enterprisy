@@ -3,5 +3,6 @@ CREATE TABLE todo(
   title text NOT NULL,
   type text NOT NULL,
   type_id int NOT NULL,
+  priority int NOT NULL,
   added date NOT NULL DEFAULT CURRENT_DATE
 );

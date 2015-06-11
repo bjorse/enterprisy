@@ -11,4 +11,6 @@
 
 (def workorders (atom []))
 
+(def current-workorder (atom nil))
+
 (def todo-items (atom []))
