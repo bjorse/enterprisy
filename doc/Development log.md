@@ -1,7 +1,19 @@
 # Development log
 This is a development log for each day anything was done on the project. Each post briefly covers completed tasks of the day and sums up time spent (expressed as hours).
 
-## 2016-06-08
+## 2015-06-11
+Today I started on the workorder page. I also fixed a lot of features in the backend services. It is now possible to approve a workorder through the GUI. Now it's only the rest of the status values left to process. But I think it'll be fine!
+
+**Time spent:** 4
+
+## 2015-06-10
+I had a day off yesterday due to commitments at work.
+
+Today I added the rest of the services: the workorder todo service and the todo data service itself. There are a few minor issues that I'll take care of tomorrow.
+
+**Time spent:** 3
+
+## 2015-06-08
 Ok, getting some static ip address for my virtual machine was no big deal after all. I created a shared network through VMWare Fusion and then declared a static ip on my VM. That was it! Amazing.
 
 Another thing that is amazing is that it's now possible to add work orders (the filter function in the GUI is broken, but who cares right?).
