@@ -9,7 +9,8 @@
             [prone.middleware :refer [wrap-exceptions]]
             [environ.core :refer [env]]
             [web-main.data.clients-data :as clients-data]
-            [web-main.data.workorders-data :as workorders-data]))
+            [web-main.data.workorders-data :as workorders-data]
+            [web-main.data.todo-data :as todo-data]))
 
 (def home-page
   (html
@@ -35,7 +36,8 @@
     (GET "/clients/:id" [id] {:body (clients-data/get-client (Integer/parseInt id))})
     (POST "/clients" {body :body} (clients-data/add-client! (:client body)))
     (GET "/workorders" [client-id] {:body (workorders-data/filter-workorders-by-client-id client-id)})
-    (POST "/workorders" {body :body} (workorders-data/add-workorder! (:workorder body)))){:keywords? true}))
+    (POST "/workorders" {body :body} (workorders-data/add-workorder! (:workorder body)))
+    (GET "/todo-items" [] {:body (todo-data/get-todo-items)})){:keywords? true}))
   (resources "/")
   (not-found "Not Found"))
 

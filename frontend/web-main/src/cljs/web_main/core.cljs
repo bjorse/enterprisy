@@ -9,8 +9,10 @@
               [web-main.pages.home-page :as home-page]
               [web-main.pages.clients-page :as clients-page]
               [web-main.pages.client-page :as client-page]
+              [web-main.pages.todo-page :as todo-page]
               [web-main.data.clients-data :as clients-data]
-              [web-main.data.workorders-data :as workorders-data])
+              [web-main.data.workorders-data :as workorders-data]
+              [web-main.data.todo-data :as todo-data])
     (:import goog.History))
 
 ;; -------------------------
@@ -26,8 +28,7 @@
   (client-page/render))
 
 (defn todo-page []
-  [:div
-    [:h3 "This is where the todo items will go!"]])
+  (todo-page/render store/todo-items))
 
 (defn workorders-page []
   [:div
@@ -74,7 +75,7 @@
   (session/put! :current-page #'todo-page))
 
 (secretary/defroute "/workorders" []
-  (workorders-data/get-workorders #(reset! store/workorders))
+  (workorders-data/get-workorders #(reset! store/workorders %))
   (session/put! :current-page-name "workorders")
   (session/put! :current-page #'workorders-page))
 
@@ -96,5 +97,6 @@
   (reagent/render [current-page] (.getElementById js/document "app")))
 
 (defn init! []
+  (todo-data/get-todo-items #(reset! store/todo-items %))
   (hook-browser-navigation!)
   (mount-root))

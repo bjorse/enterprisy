@@ -20,14 +20,15 @@
                      (when-not (numeric-and-positive? (str type-id)) {:key "type-id" :text "Type-id must be a numeric value and positive!"}))]
     (filter #(not (= nil %)) errors)))
 
-(defn format-todo-item [{:keys [id title type type_id]}]
+(defn format-todo-item [{:keys [id title type type_id added]}]
   {:id id
    :title title
    :type type
-   :type-id (util/convert-to-number type_id)})
+   :type-id (util/convert-to-number type_id)
+   :added (util/format-short-date added)})
 
 (defn get-todo-items []
-  (db/get-todo-items))
+  (map #(format-todo-item %) (db/get-todo-items)))
 
 (defn add-todo-item! [todo-item]
   (println (str "Trying to add this todo item: " todo-item))
