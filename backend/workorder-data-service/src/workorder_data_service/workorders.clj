@@ -92,6 +92,9 @@
       {:status 404 :body {:id id}}
       (format-workorder-from-db (first result)))))
 
+(defn get-workorders []
+  (map #(format-workorder-from-db %) (db/get-workorders)))
+
 (defn get-workorders-by-client-id [client-id]
   (map #(format-workorder-from-db %) (db/get-workorders-by-client-id client-id)))
 

@@ -35,20 +35,20 @@
         handler (if (nil? callback) update-workorder-callback (wrap-update-workorder-callback callback))]
     (PUT base-url {:handler handler :params {:workorder data-to-post}})))
 
-(defn approve-workorder [id]
-  (update-workorder {:id id :status "approved"}))
+(defn approve-workorder [id & [callback]]
+  (update-workorder {:id id :status "approved" :callback callback}))
 
-(defn reject-workorder [id]
-  (update-workorder {:id id :status "rejected"}))
+(defn reject-workorder [id & [callback]]
+  (update-workorder {:id id :status "rejected" :callback callback}))
 
-(defn start-workorder [id]
-  (update-workorder {:id id :status "in-progress"}))
+(defn start-workorder [id & [callback]]
+  (update-workorder {:id id :status "in-progress" :callback callback}))
 
 (defn finish-workorder [{:keys [id actual-time callback]}]
   (update-workorder {:id id :status "finished" :actual-time actual-time :callback callback}))
 
-(defn abort-workorder [id]
-  (update-workorder {:id id :status "aborted"}))
+(defn abort-workorder [id & [callback]]
+  (update-workorder {:id id :status "aborted" :callback callback}))
 
-(defn close-workorder [id]
-  (update-workorder {:id id :status "closed"}))
+(defn close-workorder [id & [callback]]
+  (update-workorder {:id id :status "closed" :callback callback}))

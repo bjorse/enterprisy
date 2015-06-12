@@ -36,6 +36,7 @@
     (GET "/clients" [query] {:body (clients-data/filter-clients query)})
     (GET "/clients/:id" [id] {:body (clients-data/get-client (Integer/parseInt id))})
     (POST "/clients" {body :body} (clients-data/add-client! (:client body)))
+    (GET "/workorders" [] {:body (workorders-data/get-workorders)})
     (GET "/workorders" [client-id] {:body (workorders-data/filter-workorders-by-client-id (Integer/parseInt client-id))})
     (GET "/workorders/:id" [id] {:body (workorders-data/get-workorder (Integer/parseInt id))})
     (POST "/workorders" {body :body} (workorders-data/add-workorder! (:workorder body)))

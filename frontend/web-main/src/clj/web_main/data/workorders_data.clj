@@ -7,6 +7,9 @@
   (let [url (str config/workorder-data-service-url "/" id)]
     (util/extract-body (client/get url))))
 
+(defn get-workorders []
+  (util/extract-body (client/get config/workorder-data-service-url)))
+
 (defn filter-workorders-by-client-id [client-id]
   (util/extract-body (client/get config/workorder-data-service-url {:query-params {:client-id client-id} :accept :json})))
 

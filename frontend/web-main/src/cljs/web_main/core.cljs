@@ -11,7 +11,8 @@
               [web-main.pages.clients-page :as clients-page]
               [web-main.pages.client-page :as client-page]
               [web-main.pages.todo-page :as todo-page]
-              [web-main.pages.workorder-page :as workorder-page])
+              [web-main.pages.workorder-page :as workorder-page]
+              [web-main.pages.workorders-page :as workorders-page])
     (:import goog.History))
 
 ;; -------------------------
@@ -21,20 +22,19 @@
   (home-page/render))
 
 (defn clients-page []
-  (clients-page/render store/clients))
+  [clients-page/render store/clients])
 
 (defn client-page []
-  (client-page/render))
+  [client-page/render store/current-client store/current-client-workorders])
 
 (defn todo-page []
-  (todo-page/render store/todo-items))
+  [todo-page/render store/todo-items])
 
 (defn workorders-page []
-  [:div
-    [:h1 "Work orders!"]])
+  [workorders-page/render store/workorders])
 
 (defn workorder-page []
-  (workorder-page/render store/current-workorder))
+  [workorder-page/render store/current-workorder])
 
 (defn current-page-name []
   (session/get :current-page-name))
@@ -42,7 +42,7 @@
 (defn current-page []
   [:div
     [:div.col-md-2
-      (menu/render (current-page-name))]
+      [menu/render (current-page-name)]]
     [:div.col-md-10
       [:div.top-buffer
         [(session/get :current-page)]]]])

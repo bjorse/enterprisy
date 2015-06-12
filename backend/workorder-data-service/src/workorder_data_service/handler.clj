@@ -6,6 +6,7 @@
             [workorder-data-service.workorders :as workorders-data]))
 
 (defroutes app-routes
+  (GET "/workorders" [] {:body (workorders-data/get-workorders)})
   (GET "/workorders" [client-id] {:body (workorders-data/get-workorders-by-client-id (Integer/parseInt client-id))})
   (GET "/workorders/:id" [id] {:body (workorders-data/get-workorder (Integer/parseInt id))})
   (POST "/workorders" {body :body} (workorders-data/add-workorder! (:workorder body)))

@@ -13052,3 +13052,1098 @@ notifying browser that file changed:  /web_main/pages/add_workorder_page.js
 notifying browser that file changed:  /web_main/core.js
 notifying browser that file changed:  /web_main/pages/clients_page.js
 notifying browser that file changed:  /web_main/dev.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.194 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/pages/todo_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/dispatcher.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/data/todo_data.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.462 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.192 seconds.[0m
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.319 seconds.[0m
+notifying browser that file changed:  /web_main/data/workorders_data.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Wrong number of args (4) passed to web-main.pages.workorder-page/finish-workorder at line 84 src/cljs/web_main/pages/workorder_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.297 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.278 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.dispatcher/update-todo-items at line 183 src/cljs/web_main/pages/client_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.383 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.346 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.197 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/pages/todo_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/dispatcher.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/data/todo_data.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.205 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/pages/todo_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/dispatcher.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/data/todo_data.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/cljs/web_main/pages/untitled.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4551.invoke (core.clj:2622)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$map$fn__4551.invoke (core.clj:2614)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core.protocols/fn (protocols.clj:151)
+    clojure.core.protocols$fn__6476$G__6471__6485.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:81)
+    clojure.core.protocols$fn__6450$G__6445__6463.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6515)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/cljs/web_main/pages/workorders_page.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4551.invoke (core.clj:2622)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$map$fn__4551.invoke (core.clj:2614)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core.protocols/fn (protocols.clj:151)
+    clojure.core.protocols$fn__6476$G__6471__6485.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:81)
+    clojure.core.protocols$fn__6450$G__6445__6463.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6515)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.228 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.pages.workorders-page/get-status-row-color at line 4 src/cljs/web_main/pages/workorders_page.cljs
+WARNING: No such namespace: utils, could not locate utils.cljs, utils.cljc, or Closure namespace "" at line 6 src/cljs/web_main/pages/workorders_page.cljs
+WARNING: Use of undeclared Var utils/get-status-text at line 6 src/cljs/web_main/pages/workorders_page.cljs
+WARNING: Use of undeclared Var web-main.pages.workorders-page/get-priority-text at line 7 src/cljs/web_main/pages/workorders_page.cljs
+WARNING: No such namespace: utils, could not locate utils.cljs, utils.cljc, or Closure namespace "" at line 21 src/cljs/web_main/pages/workorders_page.cljs
+WARNING: Use of undeclared Var utils/get-priority-icon at line 21 src/cljs/web_main/pages/workorders_page.cljs
+WARNING: No such namespace: utils, could not locate utils.cljs, utils.cljc, or Closure namespace "" at line 21 src/cljs/web_main/pages/workorders_page.cljs
+WARNING: Use of undeclared Var utils/get-priority-text at line 21 src/cljs/web_main/pages/workorders_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.296 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: No such namespace: utils, could not locate utils.cljs, utils.cljc, or Closure namespace "" at line 14 src/cljs/web_main/pages/workorders_page.cljs
+WARNING: Use of undeclared Var utils/get-priority-icon at line 14 src/cljs/web_main/pages/workorders_page.cljs
+WARNING: No such namespace: utils, could not locate utils.cljs, utils.cljc, or Closure namespace "" at line 14 src/cljs/web_main/pages/workorders_page.cljs
+WARNING: Use of undeclared Var utils/get-priority-text at line 14 src/cljs/web_main/pages/workorders_page.cljs
+WARNING: No such namespace: utils, could not locate utils.cljs, utils.cljc, or Closure namespace "" at line 19 src/cljs/web_main/pages/workorders_page.cljs
+WARNING: Use of undeclared Var utils/get-status-text at line 19 src/cljs/web_main/pages/workorders_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.267 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.204 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.363 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.361 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.365 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.359 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.355 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.365 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/cljs/web_main/components/untitled.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4551.invoke (core.clj:2622)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$map$fn__4551.invoke (core.clj:2614)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core.protocols/fn (protocols.clj:151)
+    clojure.core.protocols$fn__6476$G__6471__6485.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:81)
+    clojure.core.protocols$fn__6450$G__6445__6463.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6515)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/cljs/web_main/components/workorder_list.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4551.invoke (core.clj:2622)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$map$fn__4551.invoke (core.clj:2614)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core.protocols/fn (protocols.clj:151)
+    clojure.core.protocols$fn__6476$G__6471__6485.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:81)
+    clojure.core.protocols$fn__6450$G__6445__6463.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6515)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.181 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 5 src/cljs/web_main/components/workorder_list.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: EOF while reading, starting at line 20 and column 3 on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 21, column 1
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 5 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 53 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 63 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 64 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 70 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 74 src/cljs/web_main/components/workorder_list.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: EOF while reading, starting at line 115 and column 3 on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 116, column 1
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 5 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 53 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 63 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 64 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 70 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 74 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/toggle-filter! at line 76 src/cljs/web_main/components/workorder_list.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: EOF while reading, starting at line 115 and column 3 on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 116, column 1
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 5 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 53 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 63 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 64 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 74 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/toggle-filter! at line 76 src/cljs/web_main/components/workorder_list.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: EOF while reading, starting at line 115 and column 3 on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 116, column 1
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 5 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 53 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 63 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 64 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/toggle-filter! at line 76 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 85 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 86 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 87 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 88 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 89 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 90 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 91 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 95 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 96 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 97 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 98 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 99 src/cljs/web_main/components/workorder_list.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: EOF while reading, starting at line 115 and column 3 on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 116, column 1
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 5 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 63 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 64 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/toggle-filter! at line 76 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 85 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 86 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 87 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 88 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 89 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 90 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 91 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 95 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 96 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 97 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 98 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/workorders-status-filter-button at line 99 src/cljs/web_main/components/workorder_list.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: EOF while reading, starting at line 115 and column 3 on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 116, column 1
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 5 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 63 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 64 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 85 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 86 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 87 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 88 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 89 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 90 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 91 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 95 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 96 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 97 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 98 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 99 src/cljs/web_main/components/workorder_list.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: EOF while reading, starting at line 115 and column 3 on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 116, column 1
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 5 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 63 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 64 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 85 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 86 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 87 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 88 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 89 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 90 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 91 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 95 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 96 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 97 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 98 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 99 src/cljs/web_main/components/workorder_list.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: EOF while reading, starting at line 115 and column 3 on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 116, column 1
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 5 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 63 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 64 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 85 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 86 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 87 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 88 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 89 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 90 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 91 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 95 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 96 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 97 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 98 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 99 src/cljs/web_main/components/workorder_list.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: EOF while reading, starting at line 114 and column 3 on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 115, column 1
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 5 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 63 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 64 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 85 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 86 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 87 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 88 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 89 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 90 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 91 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 95 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 96 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 97 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 98 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 99 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (0) passed to web-main.components.workorder-list/workorders-upper-control-bar at line 116 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (0) passed to web-main.components.workorder-list/workorders-lower-control-bar at line 118 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 119 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 120 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders at line 120 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders at line 121 src/cljs/web_main/components/workorder_list.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 121, column 41
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 5 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 63 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 64 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 85 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 86 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 87 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 88 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 89 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 90 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 91 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 95 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 96 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 97 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 98 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 99 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (0) passed to web-main.components.workorder-list/workorders-upper-control-bar at line 116 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (0) passed to web-main.components.workorder-list/workorders-lower-control-bar at line 118 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.585 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 63 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 64 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 85 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 86 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 87 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 88 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 89 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 90 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 91 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 95 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 96 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 97 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 98 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 99 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (0) passed to web-main.components.workorder-list/add-workorder-button at line 105 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (0) passed to web-main.components.workorder-list/workorders-upper-control-bar at line 116 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (0) passed to web-main.components.workorder-list/workorders-lower-control-bar at line 118 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.492 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 63 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 64 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 85 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 86 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 87 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 88 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 89 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 90 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 91 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 95 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 96 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 97 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 98 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 99 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (0) passed to web-main.components.workorder-list/workorders-lower-control-bar at line 118 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.505 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 85 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 86 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 87 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 88 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 89 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 90 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 91 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 95 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 96 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 97 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 98 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 99 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (0) passed to web-main.components.workorder-list/workorders-lower-control-bar at line 118 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.44 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Wrong number of args (1) passed to web-main.components.workorder-list/filter-active? at line 67 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 85 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 86 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 87 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 88 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 89 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 90 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 91 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 95 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 96 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 97 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 98 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 99 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (0) passed to web-main.components.workorder-list/workorders-lower-control-bar at line 118 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.449 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 85 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 86 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 87 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 88 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 89 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 90 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 91 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 95 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 96 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 97 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 98 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/workorders-status-filter-button at line 99 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (0) passed to web-main.components.workorder-list/workorders-lower-control-bar at line 118 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.431 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Wrong number of args (0) passed to web-main.components.workorder-list/workorders-lower-control-bar at line 118 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.305 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.288 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.pages.workorders-page/workorder-list at line 7 src/cljs/web_main/pages/workorders_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.193 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.184 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.287 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.297 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.287 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.294 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.301 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 121, column 40
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.303 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.296 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.304 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 113 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.357 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.316 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/modal-name at line 117 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.313 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/modal-name at line 117 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.302 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.289 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 89 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 90 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 91 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 92 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 93 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 94 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 95 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 99 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 100 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 101 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 102 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 103 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.433 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.3 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.302 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.302 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.304 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.307 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.427 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.363 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.362 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.317 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.327 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.306 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.304 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.314 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.378 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.322 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.3 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.365 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.308 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.311 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.303 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.311 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.315 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 110 src/cljs/web_main/components/workorder_list.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 110, column 56
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.304 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter } on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 54, column 50
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter } on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 54, column 50
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter } on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 54, column 50
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 82 src/cljs/web_main/components/workorder_list.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/web_main/components/workorder_list.cljs
+ at clojure.core$ex_info.invoke (core.clj:4591)
+    cljs.compiler$compile_file$fn__3059.invoke (compiler.cljc:1146)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1109)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1181)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+    clojure.core$map$fn__4551.invoke (core.clj:2620)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:628)
+    clojure.core$mapcat.doInvoke (core.clj:2658)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1475)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:153)
+    figwheel_sidecar.auto_builder$default_build_options$fn__17621.invoke (auto_builder.clj:77)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__17654.invoke (auto_builder.clj:179)
+    figwheel_sidecar.auto_builder$warning$fn__17618.invoke (auto_builder.clj:73)
+    clojurescript_build.auto$time_build$fn__17414.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17420.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__17423.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__17417.invoke (auto.clj:60)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 82 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 120 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 121 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 122 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 123 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 124 src/cljs/web_main/components/workorder_list.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 148, column 43
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/filters at line 82 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 120 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 121 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 122 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 123 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 124 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/filter-workorders at line 145 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.514 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/props at line 84 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 120 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 121 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 122 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 123 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/workorders-filter-button at line 124 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/filter-workorders at line 145 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.389 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/props at line 84 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/filter-workorders at line 153 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.332 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Wrong number of args (2) passed to web-main.components.workorder-list/filter-workorders at line 152 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.308 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.324 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.308 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.306 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.307 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.305 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.309 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 131, column 84
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.311 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.345 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.329 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.357 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.327 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/% at line 56 src/cljs/web_main/components/workorder_list.cljs
+[31mCompiling "resources/public/js/app.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /Users/bjn/Documents/Development/enterprisy/frontend/web-main/src/cljs/web_main/components/workorder_list.cljs, line 56, column 53
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.34 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.335 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.359 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.324 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.326 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.426 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.354 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.345 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Wrong number of args (3) passed to wrap-filtering at line 152 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Wrong number of args (3) passed to wrap-filtering at line 151 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.413 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.331 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.332 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.33 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.367 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.352 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.337 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.331 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.318 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.348 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.333 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.337 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.349 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.336 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.333 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.325 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.327 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.327 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.341 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.352 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.349 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.337 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.322 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.342 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.321 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.338 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.337 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 92 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/priority-filters at line 100 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 115 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/priority-filters at line 116 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 123 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.387 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 115 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/priority-filters at line 116 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 123 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.359 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/status-filters at line 115 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/priority-filters at line 116 src/cljs/web_main/components/workorder_list.cljs
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 123 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.377 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.components.workorder-list/add-workorder-modal-name at line 123 src/cljs/web_main/components/workorder_list.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.36 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.33 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.387 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.pages.client-page/workorder at line 165 src/cljs/web_main/pages/client_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.408 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.376 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.328 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.184 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.197 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.279 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.329 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Wrong number of args (2) passed to web-main.pages.client-page/render at line 28 src/cljs/web_main/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.329 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.273 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.332 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.271 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.272 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.269 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.271 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.294 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.195 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.267 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.262 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.3 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.285 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.269 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.271 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.266 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.202 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.202 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.191 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.197 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.193 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.334 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+sending changed CSS file: resources/public/css/site.css
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.337 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+sending changed CSS file: resources/public/css/site.css
+sending changed CSS file: resources/public/css/site.css
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.355 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.197 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+sending changed CSS file: resources/public/css/site.css
+sending changed CSS file: resources/public/css/site.css
+sending changed CSS file: resources/public/css/site.css
+sending changed CSS file: resources/public/css/site.css
+sending changed CSS file: resources/public/css/site.css
+sending changed CSS file: resources/public/css/site.css
+sending changed CSS file: resources/public/css/site.css
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.29 seconds.[0m
+notifying browser that file changed:  /web_main/pages/clients_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.282 seconds.[0m
+notifying browser that file changed:  /web_main/pages/clients_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.264 seconds.[0m
+notifying browser that file changed:  /web_main/pages/clients_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.19 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.198 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorders_page.js
+sending changed CSS file: resources/public/css/site.css
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.337 seconds.[0m
+notifying browser that file changed:  /web_main/components/workorder_list.js

@@ -17,6 +17,9 @@
 (defn get-workorder [id]
   (sql/query db ["SELECT * FROM workorders WHERE id = ?" id]))
 
+(defn get-workorders []
+  (sql/query db ["SELECT * FROM workorders"]))
+
 (defn get-workorders-by-client-id [client-id]
   (sql/query db ["SELECT * FROM workorders WHERE client_id = ?" client-id]))
 

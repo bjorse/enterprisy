@@ -73,6 +73,8 @@
                               :title "Add a new client"
                               :body add-client-page/render
                               :on-save on-add-client})
+      [:div.page-header
+        [:h3 [:span.glyphicon.glyphicon-user] " Filter on all clients"]]
       [:div.row
         [:div.col-md-5
           [search-bar clients]]
