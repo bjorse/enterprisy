@@ -5,6 +5,7 @@
             [web-main.data.clients-data :as clients-data]
             [web-main.data.workorders-data :as workorders-data]
             [web-main.pages.add-workorder-page :as add-workorder-page]
+            [web-main.dispatcher :as dispatcher]
             [web-main.utils :as utils]))
 
 (def add-workorder-modal-name "add-workorder-modal")
@@ -173,14 +174,16 @@
           "profile" (profile-tab client)
           "workorders" (workorders-tab workorders client))]]))
 
-(defn on-add-workorder-response [response]
-  (if (contains? (:response response) :errors)
-    (reset! add-workorder-page/validation-errors (:errors (:response response)))
-    (do (components/close-modal! add-workorder-modal-name)
-        (add-workorder-page/reset-form!))))
+(defn on-add-workorder-response [client-id]
+  (fn [response]
+    (if (contains? (:response response) :errors)
+      (reset! add-workorder-page/validation-errors (:errors (:response response)))
+      (do (components/close-modal! add-workorder-modal-name)
+          (add-workorder-page/reset-form!)
+          (dispatcher/update-current-client-workorders! client-id)))))
 
-(defn on-add-workorder []
-  (workorders-data/add-workorder @add-workorder-page/workorder on-add-workorder-response))
+(defn on-add-workorder [client-id]
+  (workorders-data/add-workorder @add-workorder-page/workorder (on-add-workorder-response client-id)))
 
 (defn render []
   (let [client @store/current-client
@@ -189,6 +192,6 @@
     (components/modal-save {:id add-workorder-modal-name
                             :title (str "Add a new workorder for " (:firstname client) " " (:lastname client))
                             :body add-workorder-page/render
-                            :on-save on-add-workorder})
+                            :on-save #(on-add-workorder (:id client))})
     (when client
       (user-info client workorders))]))

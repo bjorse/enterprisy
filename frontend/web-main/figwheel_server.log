@@ -12625,3 +12625,262 @@ notifying browser that file changed:  /web_main/pages/workorder_page.js
 [0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
 [32mSuccessfully compiled "resources/public/js/app.js" in 0.371 seconds.[0m
 notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.369 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/cljs/web_main/untitled.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4551.invoke (core.clj:2622)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$map$fn__4551.invoke (core.clj:2614)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core.protocols/fn (protocols.clj:151)
+    clojure.core.protocols$fn__6476$G__6471__6485.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:81)
+    clojure.core.protocols$fn__6450$G__6445__6463.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6515)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/cljs/web_main/dispatcher.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4551.invoke (core.clj:2622)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:135)
+    clojure.core$map$fn__4551.invoke (core.clj:2614)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core.protocols/fn (protocols.clj:151)
+    clojure.core.protocols$fn__6476$G__6471__6485.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:81)
+    clojure.core.protocols$fn__6450$G__6445__6463.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6515)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.185 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/dispatcher.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.284 seconds.[0m
+notifying browser that file changed:  /web_main/dispatcher.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.312 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/core.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.221 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/utils.js
+notifying browser that file changed:  /web_main/components.js
+notifying browser that file changed:  /web_main/validation.js
+notifying browser that file changed:  /web_main/rest.js
+notifying browser that file changed:  /web_main/store.js
+notifying browser that file changed:  /web_main/pages/home_page.js
+notifying browser that file changed:  /web_main/pages/todo_page.js
+notifying browser that file changed:  /web_main/menu.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+notifying browser that file changed:  /web_main/pages/add_client_page.js
+notifying browser that file changed:  /web_main/data/clients_data.js
+notifying browser that file changed:  /web_main/data/workorders_data.js
+notifying browser that file changed:  /web_main/dispatcher.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+notifying browser that file changed:  /web_main/data/todo_data.js
+notifying browser that file changed:  /web_main/pages/add_workorder_page.js
+notifying browser that file changed:  /web_main/core.js
+notifying browser that file changed:  /web_main/pages/clients_page.js
+notifying browser that file changed:  /web_main/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.804 seconds.[0m
+notifying browser that file changed:  /web_main/dispatcher.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.209 seconds.[0m
+notifying browser that file changed:  /web_main/dispatcher.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.298 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.224 seconds.[0m
+notifying browser that file changed:  /web_main/dispatcher.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.283 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.239 seconds.[0m
+notifying browser that file changed:  /web_main/dispatcher.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.232 seconds.[0m
+notifying browser that file changed:  /web_main/dispatcher.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.core/reset-current-client! at line 62 src/cljs/web_main/core.cljs
+WARNING: Use of undeclared Var web-main.core/reset-current-client! at line 62 src/cljs/web_main/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.301 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.237 seconds.[0m
+notifying browser that file changed:  /web_main/dispatcher.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.28 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: No such namespace: todo-data, could not locate todo_data.cljs, todo_data.cljc, or Closure namespace "" at line 102 src/cljs/web_main/core.cljs
+WARNING: Use of undeclared Var todo-data/get-todo-items at line 102 src/cljs/web_main/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.299 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.297 seconds.[0m
+notifying browser that file changed:  /web_main/dispatcher.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: No such namespace: dispatcher, could not locate dispatcher.cljs, dispatcher.cljc, or Closure namespace "" at line 183 src/cljs/web_main/pages/client_page.cljs
+WARNING: Use of undeclared Var dispatcher/update-current-client-workorders at line 183 src/cljs/web_main/pages/client_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.363 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.dispatcher/update-current-client-workorders at line 183 src/cljs/web_main/pages/client_page.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.351 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.34 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.34 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.dispatcher/& at line 50 src/cljs/web_main/dispatcher.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.292 seconds.[0m
+notifying browser that file changed:  /web_main/dispatcher.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.276 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var web-main.dispatcher/& at line 50 src/cljs/web_main/dispatcher.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.285 seconds.[0m
+notifying browser that file changed:  /web_main/dispatcher.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.268 seconds.[0m
+notifying browser that file changed:  /web_main/dispatcher.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.273 seconds.[0m
+notifying browser that file changed:  /web_main/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.253 seconds.[0m
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.StackOverflowError: null
+ at clojure.lang.PersistentHashMap$BitmapIndexedNode.ensureEditable (PersistentHashMap.java:806)
+    clojure.lang.PersistentHashMap$BitmapIndexedNode.assoc (PersistentHashMap.java:888)
+    clojure.lang.PersistentHashMap$TransientHashMap.doAssoc (PersistentHashMap.java:324)
+    clojure.lang.ATransientMap.assoc (ATransientMap.java:64)
+    clojure.lang.ATransientSet.conj (ATransientSet.java:27)
+    clojure.lang.ATransientSet.conj (ATransientSet.java:15)
+    clojure.core$conj_BANG_.invoke (core.clj:3231)
+    clojure.core.protocols$iter_reduce.invoke (protocols.clj:49)
+    clojure.core.protocols/fn (protocols.clj:92)
+    clojure.core.protocols$fn__6450$G__6445__6463.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6515)
+    clojure.core$into.invoke (core.clj:6596)
+    clojure.core$fnil$fn__5494.invoke (core.clj:6291)
+    clojure.lang.AFn.applyToHelper (AFn.java:156)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.core$apply.invoke (core.clj:630)
+    clojure.core$update_in.doInvoke (core.clj:5919)
+    clojure.lang.RestFn.applyTo (RestFn.java:146)
+    clojure.lang.Atom.swap (Atom.java:79)
+    clojure.core$swap_BANG_.doInvoke (core.clj:2239)
+    clojure.lang.RestFn.invoke (RestFn.java:497)
+    figwheel_sidecar.core$sort_and_expand_ns.invoke (core.clj:264)
+    figwheel_sidecar.core$cljs_topo_sort.invoke (core.clj:274)
+    figwheel_sidecar.core$sort_and_expand_ns.invoke (core.clj:266)
+    figwheel_sidecar.core$cljs_topo_sort.invoke (core.clj:274)
+    figwheel_sidecar.core$sort_and_expand_ns.invoke (core.clj:266)
+    figwheel_sidecar.core$cljs_topo_sort.invoke (core.clj:274)
+    figwheel_sidecar.core$sort_and_expand_ns.invoke (core.clj:266)
+    figwheel_sidecar.core$cljs_topo_sort.invoke (core.clj:274)
+    figwheel_sidecar.core$sort_and_expand_ns.invoke (core.clj:266)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.277 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.269 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.266 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.261 seconds.[0m
+notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.221 seconds.[0m
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.StackOverflowError: null
+ at clojure.lang.PersistentHashMap$BitmapIndexedNode.ensureEditable (PersistentHashMap.java:806)
+    clojure.lang.PersistentHashMap$BitmapIndexedNode.assoc (PersistentHashMap.java:888)
+    clojure.lang.PersistentHashMap$TransientHashMap.doAssoc (PersistentHashMap.java:324)
+    clojure.lang.ATransientMap.assoc (ATransientMap.java:64)
+    clojure.lang.ATransientSet.conj (ATransientSet.java:27)
+    clojure.lang.ATransientSet.conj (ATransientSet.java:15)
+    clojure.core$conj_BANG_.invoke (core.clj:3231)
+    clojure.core.protocols$iter_reduce.invoke (protocols.clj:49)
+    clojure.core.protocols/fn (protocols.clj:92)
+    clojure.core.protocols$fn__6450$G__6445__6463.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6515)
+    clojure.core$into.invoke (core.clj:6596)
+    clojure.core$fnil$fn__5494.invoke (core.clj:6291)
+    clojure.lang.AFn.applyToHelper (AFn.java:156)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.core$apply.invoke (core.clj:630)
+    clojure.core$update_in.doInvoke (core.clj:5919)
+    clojure.lang.RestFn.applyTo (RestFn.java:146)
+    clojure.lang.Atom.swap (Atom.java:79)
+    clojure.core$swap_BANG_.doInvoke (core.clj:2239)
+    clojure.lang.RestFn.invoke (RestFn.java:497)
+    figwheel_sidecar.core$sort_and_expand_ns.invoke (core.clj:264)
+    figwheel_sidecar.core$cljs_topo_sort.invoke (core.clj:274)
+    figwheel_sidecar.core$sort_and_expand_ns.invoke (core.clj:266)
+    figwheel_sidecar.core$cljs_topo_sort.invoke (core.clj:274)
+    figwheel_sidecar.core$sort_and_expand_ns.invoke (core.clj:266)
+    figwheel_sidecar.core$cljs_topo_sort.invoke (core.clj:274)
+    figwheel_sidecar.core$sort_and_expand_ns.invoke (core.clj:266)
+    figwheel_sidecar.core$cljs_topo_sort.invoke (core.clj:274)
+    figwheel_sidecar.core$sort_and_expand_ns.invoke (core.clj:266)

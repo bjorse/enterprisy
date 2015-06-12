@@ -122,7 +122,7 @@
 
 (defn detailed-info [{:keys [description estimated-time actual-time status]}]
   (let [has-description? (not (string/blank? description))
-        text (if has-description? description "No description available...")]
+        text (if has-description? description [:em "No description available"])]
     [:div.top-buffer.well.well-lg
       [:p
         [:strong "Description:"] [:br] text]

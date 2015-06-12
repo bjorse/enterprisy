@@ -4,16 +4,14 @@
               [secretary.core :as secretary :include-macros true]
               [goog.events :as events]
               [goog.history.EventType :as EventType]
+              [web-main.dispatcher :as dispatcher]
               [web-main.store :as store]
               [web-main.menu :as menu]
               [web-main.pages.home-page :as home-page]
               [web-main.pages.clients-page :as clients-page]
               [web-main.pages.client-page :as client-page]
               [web-main.pages.todo-page :as todo-page]
-              [web-main.pages.workorder-page :as workorder-page]
-              [web-main.data.clients-data :as clients-data]
-              [web-main.data.workorders-data :as workorders-data]
-              [web-main.data.todo-data :as todo-data])
+              [web-main.pages.workorder-page :as workorder-page])
     (:import goog.History))
 
 ;; -------------------------
@@ -49,17 +47,6 @@
       [:div.top-buffer
         [(session/get :current-page)]]]])
 
-(defn reset-current-client! []
-  (reset! store/current-client nil)
-  (reset! store/current-client-workorders []))
-
-(defn update-current-workorder [workorder]
-  (let [client-id (:client-id workorder)
-        fixed-workorder (merge workorder {:client clients-data/default-client})]
-    (.log js/console (str workorder))
-    (reset! store/current-workorder fixed-workorder)
-    (clients-data/get-client client-id #(swap! store/current-workorder assoc :client %))))
-
 ;; -------------------------
 ;; Routes
 (secretary/set-config! :prefix "#")
@@ -69,15 +56,13 @@
   (session/put! :current-page #'home-page))
 
 (secretary/defroute "/clients" []
-  (reset-current-client!)
+  (dispatcher/reset-current-client!)
   (session/put! :current-page-name "clients")
   (session/put! :current-page #'clients-page))
 
 (secretary/defroute "/clients/:id" [id]
   (let [client-id (js/parseInt id)]
-    (reset-current-client!)
-    (workorders-data/get-workorders-for-client client-id #(reset! store/current-client-workorders %))
-    (clients-data/get-client client-id #(reset! store/current-client %))
+    (dispatcher/update-current-client! id)
     (session/put! :current-page-name "clients")
     (session/put! :current-page #'client-page)))
 
@@ -86,14 +71,13 @@
   (session/put! :current-page #'todo-page))
 
 (secretary/defroute "/workorders" []
-  (workorders-data/get-workorders #(reset! store/workorders %))
+  (dispatcher/update-workorders!)
   (session/put! :current-page-name "workorders")
   (session/put! :current-page #'workorders-page))
 
 (secretary/defroute "/workorders/:id" [id]
   (let [workorder-id (js/parseInt id)]
-    (reset! store/current-workorder nil)
-    (workorders-data/get-workorder workorder-id #(update-current-workorder %))
+    (dispatcher/update-current-workorder! workorder-id)
     (session/put! :current-page-name "workorders")
     (session/put! :current-page #'workorder-page)))
 
@@ -115,6 +99,6 @@
   (reagent/render [current-page] (.getElementById js/document "app")))
 
 (defn init! []
-  (todo-data/get-todo-items #(reset! store/todo-items %))
+  (dispatcher/update-todo-items!)
   (hook-browser-navigation!)
   (mount-root))
