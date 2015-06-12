@@ -10,7 +10,7 @@
 
 (def active-page (atom "profile"))
 
-(def status-filters (atom {:new false :approved false :rejected false :in-progress false :finished false :closed false}))
+(def status-filters (atom {:new false :approved false :rejected false :in-progress false :aborted false :finished false :closed false}))
 
 (defn header [{:keys [firstname lastname birthdate]}]
   (let [fullname (str firstname " " lastname)]
@@ -55,6 +55,7 @@
     "rejected" "danger"
     "in-progress" "active"
     "finished" "success"
+    "aborted" "danger"
     "closed" "info"
     ""))
 
@@ -65,6 +66,7 @@
     :rejected "Rejected"
     :in-progress "In progress"
     :finished "Finished"
+    :aborted "Aborted"
     :closed "Closed"))
 
 (defn workorder-row [{:keys [id title status changed]}]
@@ -132,9 +134,9 @@
     (workorders-status-filter-button {:key :approved :text "Approved"})
     (workorders-status-filter-button {:key :rejected :text "Rejected"})
     (workorders-status-filter-button {:key :in-progress :text "In progress"})
+    (workorders-status-filter-button {:key :aborted :text "Aborted"})
     (workorders-status-filter-button {:key :finished :text "Finished"})
-    (workorders-status-filter-button {:key :closed :text "Closed"})
-    (workorders-clear-filter-button)])
+    (workorders-status-filter-button {:key :closed :text "Closed"})])
 
 (defn workorders-control-bar []
   [:div.btn-toolbar {:role "toolbar"}

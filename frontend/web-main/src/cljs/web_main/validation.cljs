@@ -18,7 +18,6 @@
 (defn render-errors [validation-errors]
   (when (any-validation-errors? validation-errors)
     (let [errors (get-validation-errors validation-errors)]
-      [:div.row
-        [:div.alert.alert-danger
-          (for [error errors]
-            ^{:key error} [validation-error-row error])]])))
+      [:div.alert.alert-danger
+        (for [error errors]
+          ^{:key error} [validation-error-row error])])))

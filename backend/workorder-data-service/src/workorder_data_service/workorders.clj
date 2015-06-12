@@ -58,7 +58,7 @@
         old-status (:status old-workorder)
         new-status (:status workorder)
         new-errors (list (when-not (validate-new-status old-status new-status) {:key "status" :text "The new status is not allowed!"})
-                         (when-not (actual-time-valid? new-status (:actual-time workorder)) {:key "actual-time" :text "Actual time is needed!"}))]
+                         (when-not (actual-time-valid? new-status (:actual-time workorder)) {:key "actual-time" :text "Actual time spent is not valid (must be a numeric value)!"}))]
     (concat errors (filter-validation-error-list new-errors))))
 
 (defn fix-workorder-for-create [workorder]

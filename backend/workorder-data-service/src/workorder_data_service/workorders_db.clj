@@ -35,9 +35,10 @@
                                                      :priority priority
                                                      :client_id client-id})))
 
-(defn update-workorder! [{:keys [id title description status estimated-time]}]
+(defn update-workorder! [{:keys [id title description status estimated-time actual-time]}]
   (sql/update! db :workorders {:title title
                                :description description
                                :status status
                                :estimated_time estimated-time
+                               :actual_time actual-time
                                :changed (tc/to-sql-time (time/now))} (sql-x/where {:id id})))

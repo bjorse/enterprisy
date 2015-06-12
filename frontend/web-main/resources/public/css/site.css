@@ -12,6 +12,12 @@ textarea {
   position: fixed;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .right {
   float: right;
 }
@@ -50,5 +56,9 @@ textarea {
 }
 
 .no-wrap {
-    white-space: nowrap;
+  white-space: nowrap;
+}
+
+.short-digit-input {
+  width: 50px;
 }

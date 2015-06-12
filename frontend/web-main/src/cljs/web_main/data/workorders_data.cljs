@@ -18,27 +18,37 @@
   (let [updated-workorder (merge workorder {:client-id (:id @store/current-client)})]
     (POST base-url {:handler callback :params {:workorder updated-workorder}})))
 
-(defn update-workorder [id status & [actual-time]]
+(defn update-workorder-callback [response]
+  (when-not (contains? :error response)
+    (when (= (:id @store/current-workorder) (:id response))
+      (reset! store/current-workorder (merge @store/current-workorder response)))))
+
+(defn wrap-update-workorder-callback [callback]
+  (fn [response]
+    (callback response)
+    (update-workorder-callback response)))
+
+(defn update-workorder [{:keys [id status actual-time callback]}]
   (let [data-to-post {:id id
                       :status status
-                      :actual-time actual-time}]
-    (.log js/console (str "Putting to web server: " data-to-post))
-    (PUT base-url {:params {:workorder data-to-post}})))
+                      :actual-time actual-time}
+        handler (if (nil? callback) update-workorder-callback (wrap-update-workorder-callback callback))]
+    (PUT base-url {:handler handler :params {:workorder data-to-post}})))
 
 (defn approve-workorder [id]
-  (update-workorder id "approved"))
+  (update-workorder {:id id :status "approved"}))
 
 (defn reject-workorder [id]
-  (update-workorder id "rejected"))
+  (update-workorder {:id id :status "rejected"}))
 
 (defn start-workorder [id]
-  (update-workorder id "in-progress"))
+  (update-workorder {:id id :status "in-progress"}))
 
-(defn finish-workorder [id actual-time]
-  (update-workorder id "finished" actual-time))
+(defn finish-workorder [{:keys [id actual-time callback]}]
+  (update-workorder {:id id :status "finished" :actual-time actual-time :callback callback}))
 
 (defn abort-workorder [id]
-  (update-workorder id "aborted"))
+  (update-workorder {:id id :status "aborted"}))
 
 (defn close-workorder [id]
-  (update-workorder id "closed"))
+  (update-workorder {:id id :status "closed"}))
