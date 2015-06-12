@@ -2,16 +2,8 @@
   (:require [reagent.core :as reagent :refer [atom]]
             [clojure.string :as string]
             [web-main.validation :as validation]
-            [web-main.data.workorders-data :as workorders-data]))
-
-(defn get-priority-text [priority]
-  (case priority
-    1 "Very low priority"
-    2 "Low priority"
-    3 "Normal priority"
-    4 "High priority"
-    5 "Very high priority"
-    nil))
+            [web-main.data.workorders-data :as workorders-data]
+            [web-main.utils :as utils]))
 
 (defn get-priority-color [priority]
   (case priority
@@ -20,17 +12,6 @@
     3 "label-success"
     4 "label-warning"
     5 "label-danger"
-    nil))
-
-(defn get-status-text [status]
-  (case status
-    "new" "New"
-    "approved" "Approved"
-    "rejected" "Rejected"
-    "in-progress" "In progress"
-    "finished" "Finished"
-    "aborted" "Aborted"
-    "closed" "Closed"
     nil))
 
 (defn get-status-color [status]
@@ -47,24 +28,24 @@
 (defn show-rejected-actions []
   [:div.alert.alert-danger.big
     [:span.glyphicon.glyphicon-exclamation-sign]
-    [:strong.left-buffer "Inactive! "] "This workorder is rejected and cannot be finished."])
+    [:strong.left-buffer "Inactive! "] "This work order is rejected and cannot be finished."])
 
 (defn show-aborted-actions []
   [:div.alert.alert-danger.big
     [:span.glyphicon.glyphicon-exclamation-sign]
-    [:strong.left-buffer "Inactive! "] "This workorder is aborted and cannot be finished."])
+    [:strong.left-buffer "Inactive! "] "This work order is aborted and cannot be finished."])
 
 (defn show-approved-actions [id]
   [:div.row
     [:div.col-md-12
       [:button.btn.btn-lg.btn-primary.pull-right {:on-click #(workorders-data/start-workorder id)}
-        [:span.glyphicon.glyphicon-ok] " Start work"]]])
+        [:span.glyphicon.glyphicon-ok] " Initiate work for this work order"]]])
 
 (defn show-finished-actions [id]
   [:div.alert.alert-info.big
     [:span.glyphicon.glyphicon-ok-sign]
     [:strong.left-buffer "Good job! "] "This work order has been finished! "
-    [:a.alert-link.link {:on-click #(workorders-data/close-workorder id)} "Click here to close this workorder!"]])
+    [:a.alert-link.link {:on-click #(workorders-data/close-workorder id)} "Click here to close this work order!"]])
 
 (defn show-closed-actions []
   [:div.alert.alert-info.big
@@ -132,8 +113,10 @@
 (defn info-bar [{:keys [client added changed priority status]}]
   (let [client-name (str (:firstname client) " " (:lastname client))]
     [:div
-      [:span.label {:class (get-priority-color priority)} (get-priority-text priority)]
-      [:span.label.left-buffer {:class (get-status-color status)} (get-status-text status)]
+      [:span.label {:class (get-priority-color priority)}
+        [:span.glyphicon {:class (utils/get-priority-icon priority)}]
+        [:span.left-buffer-sm (utils/get-priority-text priority)]]
+      [:span.label.left-buffer {:class (get-status-color status)} (utils/get-status-text status)]
       [:span.text-muted.left-buffer "Added by "
         [:a {:href (str "#/clients/" (:id client))} client-name] " " added " (latest change: " changed ")"]]))
 

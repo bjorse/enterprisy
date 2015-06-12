@@ -4,7 +4,8 @@
             [web-main.store :as store]
             [web-main.data.clients-data :as clients-data]
             [web-main.data.workorders-data :as workorders-data]
-            [web-main.pages.add-workorder-page :as add-workorder-page]))
+            [web-main.pages.add-workorder-page :as add-workorder-page]
+            [web-main.utils :as utils]))
 
 (def add-workorder-modal-name "add-workorder-modal")
 
@@ -59,20 +60,15 @@
     "closed" "info"
     ""))
 
-(defn get-status-display-name [status-key]
-  (case (keyword status-key)
-    :new "New"
-    :approved "Approved"
-    :rejected "Rejected"
-    :in-progress "In progress"
-    :finished "Finished"
-    :aborted "Aborted"
-    :closed "Closed"))
+(defn get-priority-text [priority]
+  [:div
+    [:span.glyphicon.small {:class (utils/get-priority-icon priority)}] (str " " (utils/get-priority-text priority))])
 
-(defn workorder-row [{:keys [id title status changed]}]
+(defn workorder-row [{:keys [id title status priority changed]}]
   [:tr {:class (get-status-row-color status)}
     [:td [:a {:href (str "#/workorders/" id)} title]]
-    [:td.no-wrap (get-status-display-name status)]
+    [:td.no-wrap (utils/get-status-text status)]
+    [:td.no-wrap (get-priority-text priority)]
     [:td.no-wrap changed]])
 
 (defn workorder-count-row [workorder-count]
@@ -88,6 +84,7 @@
         [:tr
           [:td [:strong "Title"]]
           [:td [:strong "Status"]]
+          [:td [:strong "Priority"]]
           [:td [:strong "Changed"]]]]
       [:tbody
         (for [row (reverse (sort-by :updated source))]
