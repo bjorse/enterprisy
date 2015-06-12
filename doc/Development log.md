@@ -1,6 +1,15 @@
 # Development log
 This is a development log for each day anything was done on the project. Each post briefly covers completed tasks of the day and sums up time spent (expressed as hours).
 
+## 2015-06-12
+Got a lot of stuff done today! The workorder page feels done, the todo page is almost done... Feels really good!
+
+However, I don't think there will be any websockets. It will take too much time to get it finished (I'll need to change web server from jetty to http-kit first, among other things). I will handle it the good old-fashioned way and update manually when I'm adding work orders (it worked like that earlier today but not right now).
+
+It's all about compromises...
+
+**Time spent:** 4
+
 ## 2015-06-11
 Today I started on the workorder page. I also fixed a lot of features in the backend services. It is now possible to approve a workorder through the GUI. Now it's only the rest of the status values left to process. But I think it'll be fine!
 
