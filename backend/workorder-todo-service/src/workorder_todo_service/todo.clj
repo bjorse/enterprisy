@@ -6,6 +6,8 @@
 
 (def todo-service-url "http://localhost:3030/todo-items")
 
+(def subscribed-messages ["workorder.new" "workorder.approved" "workorder.rejected" "workorder.in-progress" "workorder.aborted" "workorder.finished" "workorder.closed"])
+
 (defn add-todo-item-external! [todo-item]
   (let [result (client/post todo-service-url {:body (util/convert-map-to-json {:todo-item todo-item})
                                                                                :content-type :json
@@ -33,6 +35,16 @@
    :type-id workorder-id
    :priority priority})
 
+(defn get-previous-status [status]
+  (case status
+    "approved" "new"
+    "rejected" "new"
+    "in-progress" "approved"
+    "finished" "in-progress"
+    "aborted" "in-progress"
+    "closed" "finished"
+    nil))
+
 (defn get-todo-title-by-message-type [type]
   (case type
     "workorder.new" "Workorder needs to be approved or rejected"
@@ -41,9 +53,25 @@
     "workorder.finished" "Workorder needs to be closed"
     nil))
 
+(defn message-subscribed? [message-type]
+  (some #(= message-type %) subscribed-messages))
+
+(defn delete-outdated-todo-item! [{:keys [workorder-id status]}]
+  (when-let [previous-status (get-previous-status status)]
+    (println (str "Current status: " status ", previous status: " previous-status))
+    (when-let [todo-item (db/get-by-workorder-id-and-status workorder-id previous-status)]
+      (println (str "Sending request to delete todo item with id: " (:todo_id todo-item)))
+      (client/delete todo-service-url {:body (util/convert-map-to-json {:id (:todo_id todo-item)})
+                                       :content-type :json
+                                       :accept :json
+                                       :throw-exceptions false}))))
+
 (defn handle-workorder-message [type message]
-  (when-let [title (get-todo-title-by-message-type type)]
-    (get-internal-workorder-todo-item title message)))
+  (when (message-subscribed? type)
+    (println (str "Are we subscribing on message type: " type "? YES, we are!"))
+    (delete-outdated-todo-item! message)
+    (when-let [title (get-todo-title-by-message-type type)]
+      (get-internal-workorder-todo-item title message))))
 
 (defn handle-message [type message]
   (when-let [todo-item (handle-workorder-message type message)]

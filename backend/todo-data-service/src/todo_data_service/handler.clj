@@ -8,6 +8,7 @@
 (defroutes app-routes
   (GET "/todo-items" [] {:body (todo-data/get-todo-items)})
   (POST "/todo-items" {body :body} (todo-data/add-todo-item! (:todo-item body)))
+  (DELETE "/todo-items" {body :body} (todo-data/delete-todo-item! (:id body)))
   (route/not-found "Not Found"))
 
 (def app

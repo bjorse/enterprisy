@@ -25,3 +25,6 @@
                                                :type type
                                                :type_id type-id
                                                :priority priority})))
+
+(defn delete-todo-item! [id]
+  (sql/delete! db :todo ["id = ?" id]))

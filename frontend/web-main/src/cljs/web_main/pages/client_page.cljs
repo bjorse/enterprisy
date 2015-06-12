@@ -75,6 +75,7 @@
   [:tr
     [:td [:small (str "Number of work orders listed: " workorder-count)]]
     [:td]
+    [:td]
     [:td]])
 
 (defn workorder-table [source]

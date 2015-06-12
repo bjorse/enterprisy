@@ -12622,3 +12622,6 @@ notifying browser that file changed:  /web_main/pages/workorder_page.js
 [0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
 [32mSuccessfully compiled "resources/public/js/app.js" in 0.284 seconds.[0m
 notifying browser that file changed:  /web_main/pages/workorder_page.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.371 seconds.[0m
+notifying browser that file changed:  /web_main/pages/client_page.js

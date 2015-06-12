@@ -47,3 +47,10 @@
             {:status 200 :body result})
         {:status 500})
       {:status 422 :body {:errors validation-errors}})))
+
+(defn delete-todo-item! [id]
+  (println (str "Trying to delete todo item with id: " id))
+  (when (db/delete-todo-item! id)
+    (println (str "Removed todo item with id: " id))
+    (queuing/publish! {:id id} queuing/remove-todo-item-message-type)
+    {:result "success" :id id}))
