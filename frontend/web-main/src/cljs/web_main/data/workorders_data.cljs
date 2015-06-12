@@ -1,6 +1,5 @@
 (ns web-main.data.workorders-data
   (:require [web-main.rest :refer [GET POST PUT]]
-            [web-main.dispatcher :as dispatcher]
             [web-main.store :as store]))
 
 (def base-url "/api/workorders")

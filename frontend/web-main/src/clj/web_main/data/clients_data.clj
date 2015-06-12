@@ -4,9 +4,8 @@
             [clj-http.client :as client]
             [clj-time.core :as time]
             [clj-time.format :as time-format]
+            [web-main.config :as config]
             [web-main.util :as util]))
-
-(def client-data-service-url "http://localhost:3010/clients")
 
 (defn calculate-age [birthdate]
   (let [parsed-birthdate (time-format/parse birthdate)
@@ -25,17 +24,17 @@
    :age (calculate-age birthdate)})
 
 (defn filter-clients [query]
-  (let [result (util/extract-body (client/get client-data-service-url {:query-params {:query query} :accept :json}))
+  (let [result (util/extract-body (client/get config/client-data-service-url {:query-params {:query query} :accept :json}))
         clients (map #(extract-data %) (:clients result))]
     {:clients clients :limited (:limited result)}))
 
 (defn get-client [id]
-  (let [client (util/extract-body (client/get (str client-data-service-url "/" id)))]
+  (let [client (util/extract-body (client/get (str config/client-data-service-url "/" id)))]
     (extract-data client)))
 
 (defn add-client! [client]
-  (let [result (client/post client-data-service-url {:body (util/convert-map-to-json {:client client})
-                                                     :content-type :json
-                                                     :accept :json
-                                                     :throw-exceptions false})]
+  (let [result (client/post config/client-data-service-url {:body (util/convert-map-to-json {:client client})
+                                                            :content-type :json
+                                                            :accept :json
+                                                            :throw-exceptions false})]
     {:status (:status result) :body (util/extract-body result)}))

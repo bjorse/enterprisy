@@ -8,6 +8,7 @@
             [hiccup.page :refer [include-js include-css]]
             [prone.middleware :refer [wrap-exceptions]]
             [environ.core :refer [env]]
+            [web-main.queuing :as queuing]
             [web-main.data.clients-data :as clients-data]
             [web-main.data.workorders-data :as workorders-data]
             [web-main.data.todo-data :as todo-data]))
@@ -46,3 +47,6 @@
 (def app
   (let [handler (wrap-defaults routes (merge site-defaults {:security {:anti-forgery false}}))]
     (if (env :dev) (wrap-exceptions handler) handler)))
+
+(defn init []
+  (queuing/listen! #(println %)))

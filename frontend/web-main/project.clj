@@ -25,7 +25,8 @@
                  [secretary "1.2.3"]
                  [clj-http "1.1.2"]
                  [cljs-ajax "0.3.11"]
-                 [clj-time "0.9.0"]]
+                 [clj-time "0.9.0"]
+                 [com.novemberain/langohr "3.2.0"]]
 
   :plugins [[lein-ring "0.9.1"]
             [lein-environ "1.0.0"]
