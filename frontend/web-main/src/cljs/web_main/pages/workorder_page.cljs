@@ -6,26 +6,6 @@
             [web-main.utils :as utils]
             [web-main.dispatcher :as dispatcher]))
 
-(defn get-priority-color [priority]
-  (case priority
-    1 "label-info"
-    2 "label-primary"
-    3 "label-success"
-    4 "label-warning"
-    5 "label-danger"
-    nil))
-
-(defn get-status-color [status]
-  (case status
-    "new" "label-primary"
-    "approved" "label-success"
-    "rejected" "label-danger"
-    "in-progress" "label-default"
-    "finished" "label-info"
-    "aborted" "label-danger"
-    "closed" "label-default"
-    nil))
-
 (defn update-workorder-callback [_]
   (dispatcher/update-todo-items!))
 
@@ -119,10 +99,10 @@
 (defn info-bar [{:keys [client added changed priority status]}]
   (let [client-name (str (:firstname client) " " (:lastname client))]
     [:div
-      [:span.label {:class (get-priority-color priority)}
+      [:span.label {:class (str "label-" (utils/get-priority-color priority))}
         [:span.glyphicon {:class (utils/get-priority-icon priority)}]
         [:span.left-buffer-sm (utils/get-priority-text priority)]]
-      [:span.label.left-buffer {:class (get-status-color status)} (utils/get-status-text status)]
+      [:span.label.left-buffer {:class (str "label-" (utils/get-status-color status))} (utils/get-status-text status)]
       [:span.text-muted.left-buffer "Added by "
         [:a {:href (str "#/clients/" (:id client))} client-name] " " added " (latest change: " changed ")"]]))
 

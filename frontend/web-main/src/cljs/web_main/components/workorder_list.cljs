@@ -6,21 +6,12 @@
   [:button.btn.btn-default {:data-toggle "modal" :data-target (str "#" modal-name)}
     [:span.glyphicon.glyphicon-plus] " Add a new work order"])
 
-(defn get-status-row-color [status]
-  (case status
-    "rejected" "danger"
-    "in-progress" "active"
-    "finished" "success"
-    "aborted" "danger"
-    "closed" "info"
-    ""))
-
 (defn get-priority-text [priority]
   [:div
     [:span.glyphicon.small {:class (utils/get-priority-icon priority)}] (str " " (utils/get-priority-text priority))])
 
 (defn workorder-row [{:keys [id title status priority changed]}]
-  [:tr {:class (get-status-row-color status)}
+  [:tr {:class (utils/get-status-color status)}
     [:td [:a {:href (str "#/workorders/" id)} title]]
     [:td.no-wrap (utils/get-status-text status)]
     [:td.no-wrap (get-priority-text priority)]

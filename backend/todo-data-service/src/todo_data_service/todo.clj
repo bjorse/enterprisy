@@ -19,18 +19,21 @@
 (defn valid-priority? [value]
   (re-matches prority-format value))
 
-(defn validate-todo-item [{:keys [title type type-id priority]}]
+(defn validate-todo-item [{:keys [title type type-id description priority]}]
   (let [errors (list (when (string/blank? title) {:key "title" :text "Title cannot be empty!"})
                      (when (string/blank? type) {:key "type" :text "Type cannot be empty!"})
+                     (when (string/blank? description) {:key "description" :text "Description cannot be empty!"})
                      (when-not (numeric-and-positive? (str type-id)) {:key "type-id" :text "Type-id must be a numeric value and positive!"})
                      (when-not (valid-priority? (str priority)) {:key "priority" :text "Priority must be numeric value in range 1-5!"}))]
     (filter #(not (= nil %)) errors)))
 
-(defn format-todo-item [{:keys [id title type type_id priority added]}]
+(defn format-todo-item [{:keys [id title type type_id description priority added]}]
+  (println added)
   {:id id
    :title title
    :type type
    :type-id (util/convert-to-number type_id)
+   :description description
    :priority (util/convert-to-number priority)
    :added added})
 

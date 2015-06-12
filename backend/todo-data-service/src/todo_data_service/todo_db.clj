@@ -20,10 +20,11 @@
     (let [added-todo-item (first result)]
       (merge added-todo-item {:added (util/format-short-date (:added added-todo-item))}))))
 
-(defn add-todo-item! [{:keys [title type type-id priority]}]
+(defn add-todo-item! [{:keys [title type type-id description priority]}]
   (handle-insert-result (sql/insert! db :todo {:title title
                                                :type type
                                                :type_id type-id
+                                               :description description
                                                :priority priority})))
 
 (defn delete-todo-item! [id]

@@ -33,3 +33,21 @@
     "aborted" "Aborted"
     "closed" "Closed"
     nil))
+
+(defn get-status-color [status]
+  (case status
+    "rejected" "danger"
+    "in-progress" "active"
+    "finished" "success"
+    "aborted" "danger"
+    "closed" "info"
+    "default"))
+
+(defn get-priority-color [priority]
+  (case priority
+    1 "info"
+    2 "primary"
+    3 "success"
+    4 "warning"
+    5 "danger"
+    nil))

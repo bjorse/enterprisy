@@ -15,8 +15,9 @@
     "closed" queing/workorder-closed-message-type
     nil))
 
-(defn create-message [workorder-id status client-id priority]
+(defn create-message [workorder-id title status client-id priority]
   {:workorder-id workorder-id
+   :title title
    :status status
    :client-id client-id
    :priority priority})
@@ -25,6 +26,7 @@
   (when (some #(= % type) subscribed-messages)
     (println (str "Handling message type '" type "': " message))
     (let [workorder-id (:id message)
+          title (:title message)
           status (:status message)
           client-id (:client-id message)
           priority (:priority message)
@@ -32,7 +34,7 @@
       (println (str "Entity from db: " db-entity))
       (when (nil? db-entity)
         (if-let [message-type (get-message-type status)]
-          (let [message-to-add (create-message workorder-id status client-id priority)]
+          (let [message-to-add (create-message workorder-id title status client-id priority)]
             (println (str "Publishing message '" message-type "' to queue: " message-to-add))
             (queing/publish! message-to-add message-type)
             (db/add-process-status! message-to-add)))))))

@@ -22,17 +22,19 @@
                              :client-id client-id
                              :todo-id todo-id}))
 
-(defn get-internal-workorder-todo-item [title workorder]
-  {:title title
+(defn get-internal-workorder-todo-item [description workorder]
+  {:title (:title workorder)
+   :description description
    :workorder-id (:workorder-id workorder)
    :workorder-status (:status workorder)
    :client-id (:client-id workorder)
    :priority (:priority workorder)})
 
-(defn get-external-workorder-todo-item [{:keys [title workorder-id priority]}]
+(defn get-external-workorder-todo-item [{:keys [title description workorder-id priority]}]
   {:title title
    :type "workorder"
    :type-id workorder-id
+   :description description
    :priority priority})
 
 (defn get-previous-status [status]
@@ -45,12 +47,12 @@
     "closed" "finished"
     nil))
 
-(defn get-todo-title-by-message-type [type]
+(defn get-todo-description-by-message-type [type]
   (case type
-    "workorder.new" "Workorder needs to be approved or rejected"
-    "workorder.approved" "Workorder needs to be started"
-    "workorder.in-progress" "Workorder needs to be finished"
-    "workorder.finished" "Workorder needs to be closed"
+    "workorder.new" "Approval or rejection is needed"
+    "workorder.approved" "Waiting for initiation"
+    "workorder.in-progress" "Work needs to be completed"
+    "workorder.finished" "Waiting for final verification"
     nil))
 
 (defn message-subscribed? [message-type]
@@ -70,8 +72,8 @@
   (when (message-subscribed? type)
     (println (str "Are we subscribing on message type: " type "? YES, we are!"))
     (delete-outdated-todo-item! message)
-    (when-let [title (get-todo-title-by-message-type type)]
-      (get-internal-workorder-todo-item title message))))
+    (when-let [description (get-todo-description-by-message-type type)]
+      (get-internal-workorder-todo-item description message))))
 
 (defn handle-message [type message]
   (when-let [todo-item (handle-workorder-message type message)]

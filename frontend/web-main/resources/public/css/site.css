@@ -42,6 +42,10 @@ textarea {
   margin-top: 1px;
 }
 
+.reduce-top-margin {
+  margin-top: -5px;
+}
+
 .displayed {
   display: block;
   margin-left: auto;
@@ -60,17 +64,6 @@ textarea {
   font-size: 0.8em;
 }
 
-.notification-icon .badge {
-  background: red;
-  position: relative;
-  top: -15;
-  left: -8px;
-}
-
 .no-wrap {
   white-space: nowrap;
-}
-
-.short-digit-input {
-  width: 50px;
 }
