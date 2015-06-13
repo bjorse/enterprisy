@@ -37,7 +37,6 @@
 (defn get-status-color [status]
   (case status
     "rejected" "danger"
-    "in-progress" "active"
     "finished" "success"
     "aborted" "danger"
     "closed" "info"
