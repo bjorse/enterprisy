@@ -26,7 +26,7 @@
 (defn handle-insert-result [result]
   (when-not (empty? result)
     (let [added-client (first result)]
-      (merge added-client {:added (util/format-short-date (:added added-client))
+      (merge added-client {:added (util/format-long-date (:added added-client))
                            :birthdate (util/format-short-date (:birthdate added-client))}))))
 
 (defn add-client! [{:keys [firstname lastname email gender birthdate]}]

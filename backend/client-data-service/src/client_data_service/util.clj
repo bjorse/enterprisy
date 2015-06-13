@@ -7,3 +7,6 @@
 
 (defn format-short-date [date]
   (.format (java.text.SimpleDateFormat. "yyyy-MM-dd") date))
+
+(defn format-long-date [date]
+  (.format (java.text.SimpleDateFormat. "yyyy-MM-dd HH:mm") date))

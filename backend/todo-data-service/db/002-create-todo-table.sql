@@ -5,5 +5,5 @@ CREATE TABLE todo(
   type_id int NOT NULL,
   description text NOT NULL,
   priority int NOT NULL,
-  added date NOT NULL DEFAULT CURRENT_DATE
+  added timestamp NOT NULL DEFAULT NOW()
 );

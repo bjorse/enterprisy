@@ -52,7 +52,7 @@
     (filter #(not (= nil %)) errors)))
 
 (defn format-client [client]
-  (merge client {:added (util/format-short-date (:added client))
+  (merge client {:added (util/format-long-date (:added client))
                  :birthdate (util/format-short-date (:birthdate client))}))
 
 (defn filter-clients [query]

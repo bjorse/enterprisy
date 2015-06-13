@@ -83,8 +83,8 @@
   (let [fixed-workorder (clojure.set/rename-keys workorder {:estimated_time :estimated-time
                                                             :actual_time :actual-time
                                                             :client_id :client-id})]
-    (merge fixed-workorder {:added (util/format-short-date (:added fixed-workorder))
-                            :changed (util/format-short-date (:changed fixed-workorder))})))
+    (merge fixed-workorder {:added (util/format-long-date (:added fixed-workorder))
+                            :changed (util/format-long-date (:changed fixed-workorder))})))
 
 (defn get-workorder [id]
   (let [result (db/get-workorder id)]

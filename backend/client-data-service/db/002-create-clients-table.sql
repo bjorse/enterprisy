@@ -6,5 +6,5 @@ CREATE TABLE clients(
   birthdate date NOT NULL,
   gender text NOT NULL,
   active boolean NOT NULL DEFAULT TRUE,
-  added date NOT NULL DEFAULT CURRENT_DATE
+  added timestamp NOT NULL DEFAULT NOW()
 );

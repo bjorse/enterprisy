@@ -21,6 +21,5 @@
            (let [channel (first channels-left)]
              (println (str "Sending to channel: " channel))
              (>! channel {:type event-type :message message})
-             (println (str "Total channels count right now: " (count channels-left)))
-             (when (> 1 (count channels-left))
+             (when (> (count channels-left) 1)
                (recur (rest channels-left))))))

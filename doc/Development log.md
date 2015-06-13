@@ -1,6 +1,13 @@
 # Development log
 This is a development log for each day anything was done on the project. Each post briefly covers completed tasks of the day and sums up time spent (expressed as hours).
 
+## 2015-06-13
+Ironically, yesterdays post about no websockets was totally wrong. I've implemented a separate "event service" which right now provides the client with info when todo items are added or removed.
+
+Tomorrow I'll implement some kind of event system which will provide some kind of info when interesting things happen in the system. That info will be shown on the home page!
+
+**Time spent:** 4
+
 ## 2015-06-12
 Got a lot of stuff done today! The workorder page feels done, the todo page is almost done... Feels really good!
 
