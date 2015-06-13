@@ -85,7 +85,7 @@
       (reset! add-workorder-page/validation-errors (:errors (:response response)))
       (do (components/close-modal! add-workorder-modal-name)
           (add-workorder-page/reset-form!)
-          (dispatcher/update-current-client-workorders! client-id #(dispatcher/update-todo-items!))))))
+          (dispatcher/update-current-client-workorders! client-id)))))
 
 (defn on-add-workorder [client-id]
   (workorders-data/add-workorder @add-workorder-page/workorder (on-add-workorder-response client-id)))

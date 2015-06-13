@@ -11,7 +11,6 @@
   (GET base-url {:handler callback}))
 
 (defn get-workorders-for-client [client-id callback]
-  (.log js/console (str "Client id when fetching workorders: " client-id))
   (GET base-url {:handler callback :params {:client-id client-id}}))
 
 (defn add-workorder [workorder callback]

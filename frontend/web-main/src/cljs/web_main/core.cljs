@@ -5,6 +5,7 @@
               [goog.events :as events]
               [goog.history.EventType :as EventType]
               [web-main.dispatcher :as dispatcher]
+              [web-main.events :as app-events]
               [web-main.store :as store]
               [web-main.menu :as menu]
               [web-main.pages.home-page :as home-page]
@@ -99,6 +100,7 @@
   (reagent/render [current-page] (.getElementById js/document "app")))
 
 (defn init! []
+  (app-events/listen-for-events!)
   (dispatcher/update-todo-items!)
   (hook-browser-navigation!)
   (mount-root))
