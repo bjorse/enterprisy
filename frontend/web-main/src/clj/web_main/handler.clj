@@ -30,14 +30,18 @@
      (include-js (if (env :dev) "js/bootstrap.js" "js/bootstrap.min.js"))
      (include-js "js/app.js")]))
 
+(defn handle-workorders-request [client-id]
+  (if client-id
+    (workorders-data/filter-workorders-by-client-id (Integer/parseInt client-id))
+    (workorders-data/get-workorders)))
+
 (defroutes routes
   (GET "/" [] home-page)
   (wrap-json-response (wrap-json-body (context "/api" []
     (GET "/clients" [query] {:body (clients-data/filter-clients query)})
     (GET "/clients/:id" [id] {:body (clients-data/get-client (Integer/parseInt id))})
     (POST "/clients" {body :body} (clients-data/add-client! (:client body)))
-    (GET "/workorders" [] {:body (workorders-data/get-workorders)})
-    (GET "/workorders" [client-id] {:body (workorders-data/filter-workorders-by-client-id (Integer/parseInt client-id))})
+    (GET "/workorders" [client-id] {:body (handle-workorders-request client-id)})
     (GET "/workorders/:id" [id] {:body (workorders-data/get-workorder (Integer/parseInt id))})
     (POST "/workorders" {body :body} (workorders-data/add-workorder! (:workorder body)))
     (PUT "/workorders" {body :body} (workorders-data/update-workorder! (:workorder body)))
