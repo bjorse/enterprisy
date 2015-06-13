@@ -3,9 +3,17 @@
 
 (def channels (atom []))
 
+(defn remove-channel [channel]
+  (println (str "Disconnecting " channel))
+  (reset! channels (filter #(not= channel %) @channels)))
+
 (defn ws-handler [{:keys [ws-channel] :as req}]
   (println "Opened connection from" (:remote-addr req))
-  (reset! channels (conj @channels ws-channel)))
+  (reset! channels (conj @channels ws-channel))
+  (go-loop []
+           (if (<! ws-channel)
+             (recur)
+             (remove-channel ws-channel))))
 
 (defn broadcast! [event-type message]
   (println (str "Broadcasting message '" event-type "': " message))
@@ -14,6 +22,5 @@
              (println (str "Sending to channel: " channel))
              (>! channel {:type event-type :message message})
              (println (str "Total channels count right now: " (count channels-left)))
-             (if (> 1 (count channels-left))
-               (recur (rest channels-left))
-               nil))))
+             (when (> 1 (count channels-left))
+               (recur (rest channels-left))))))
