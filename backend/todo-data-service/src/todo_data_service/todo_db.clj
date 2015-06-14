@@ -23,8 +23,7 @@
 
 (defn handle-insert-result [result]
   (when-not (empty? result)
-    (let [added-todo-item (first result)]
-      (merge added-todo-item {:added (util/format-short-date (:added added-todo-item))}))))
+    (first result)))
 
 (defn add-todo-item! [{:keys [title type type-id description priority]}]
   (handle-insert-result (sql/insert! db :todo {:title title

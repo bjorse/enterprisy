@@ -6,8 +6,9 @@
             [web-main.utils :as utils]
             [web-main.dispatcher :as dispatcher]))
 
-(defn update-workorder-callback [_]
-  (dispatcher/update-todo-items!))
+(defn update-workorder-callback [{:keys [id]}]
+  (dispatcher/update-todo-items!)
+  (dispatcher/update-current-workorder! id))
 
 (defn show-rejected-actions []
   [:div.alert.alert-danger.big

@@ -35,7 +35,7 @@
    :type-id (util/convert-to-number type_id)
    :description description
    :priority (util/convert-to-number priority)
-   :added added})
+   :added (util/format-long-date added)})
 
 (defn get-todo-items []
   (map #(format-todo-item %) (db/get-todo-items)))
