@@ -1,6 +1,13 @@
 # Development log
 This is a development log for each day anything was done on the project. Each post briefly covers completed tasks of the day and sums up time spent (expressed as hours).
 
+## 2015-06-14
+Implemented the event system which provides the GUI with events happening across the services. I've also added a loading spinner (not because it's really needed - yes, the application is THAT fast).
+
+Don't know what to do next. I don't wanna start on something big and not have the time finishing it before the dead line. I guess I'll work on my presentation and doing the last finishing touch on the application. Sad, but somehow good anyway!
+
+**Time spent:** 3
+
 ## 2015-06-13
 Ironically, yesterdays post about no websockets was totally wrong. I've implemented a separate "event service" which right now provides the client with info when todo items are added or removed.
 
