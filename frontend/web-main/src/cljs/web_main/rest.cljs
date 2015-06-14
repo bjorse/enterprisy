@@ -1,5 +1,6 @@
 (ns web-main.rest
-  (:require [ajax.core :as ajax]))
+  (:require [ajax.core :as ajax]
+            [web-main.states :as states]))
 
 (defn default-handler [response]
   (.log js/console (str response)))
@@ -13,6 +14,12 @@
    :response-format :json
    :keywords? true})
 
+(defn wrap-loading-state-handler [handler]
+  (let [id (states/add-loading-state!)]
+    (fn [response]
+      (states/remove-loading-state! id)
+      (handler response))))
+
 (defn wrap-handler [handler]
   (fn [response]
     (handler (last response))))
@@ -21,7 +28,9 @@
   (merge default-ops opts))
 
 (defn GET [url & [opts]]
-  (ajax/GET url (update-opts opts)))
+  (let [updated-opts (update-opts opts)
+        handler (:handler updated-opts)]
+    (ajax/GET url (merge updated-opts {:handler (wrap-loading-state-handler handler)}))))
 
 (defn POST [url opts]
   (let [new-opts (update-opts opts)]
@@ -29,7 +38,7 @@
       {:uri url
        :method :post
        :params (:params new-opts)
-       :handler (wrap-handler (:handler new-opts))
+       :handler (wrap-loading-state-handler (wrap-handler (:handler new-opts)))
        :format (ajax/json-request-format)
        :response-format (ajax/json-response-format {:keywords? true})})))
 
@@ -39,6 +48,6 @@
       {:uri url
        :method :put
        :params (:params new-opts)
-       :handler (wrap-handler (:handler new-opts))
+       :handler (wrap-loading-state-handler (wrap-handler (:handler new-opts)))
        :format (ajax/json-request-format)
        :response-format (ajax/json-response-format {:keywords? true})})))

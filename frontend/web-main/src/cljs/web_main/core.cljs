@@ -4,10 +4,12 @@
               [secretary.core :as secretary :include-macros true]
               [goog.events :as events]
               [goog.history.EventType :as EventType]
+              [web-main.states :as states]
               [web-main.dispatcher :as dispatcher]
               [web-main.events :as app-events]
               [web-main.store :as store]
               [web-main.menu :as menu]
+              [web-main.spinner :as spinner]
               [web-main.pages.home-page :as home-page]
               [web-main.pages.clients-page :as clients-page]
               [web-main.pages.client-page :as client-page]
@@ -42,6 +44,7 @@
 
 (defn current-page []
   [:div
+    [spinner/render states/loading-states]
     [:div.col-md-2
       [menu/render (current-page-name)]]
     [:div.col-md-10

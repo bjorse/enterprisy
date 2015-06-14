@@ -28,7 +28,6 @@
     (filter #(not (= nil %)) errors)))
 
 (defn format-todo-item [{:keys [id title type type_id description priority added]}]
-  (println added)
   {:id id
    :title title
    :type type

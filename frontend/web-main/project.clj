@@ -26,7 +26,8 @@
                  [clj-http "1.1.2"]
                  [cljs-ajax "0.3.11"]
                  [clj-time "0.9.0"]
-                 [jarohen/chord "0.6.0"]]
+                 [jarohen/chord "0.6.0"]
+                 [com.lucasbradstreet/cljs-uuid-utils "1.0.1"]]
 
   :plugins [[lein-ring "0.9.1"]
             [lein-environ "1.0.0"]

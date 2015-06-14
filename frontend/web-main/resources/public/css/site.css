@@ -8,6 +8,18 @@ textarea {
   resize: none;
 }
 
+.spinner-overlay {
+	z-index: 99999;
+	position: fixed !important;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+  opacity: 0.5;
+  background: white url(/images/loading_spinner.gif) center center no-repeat;
+}
+
 .fixed {
   position: fixed;
 }

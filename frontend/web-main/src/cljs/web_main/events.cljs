@@ -16,7 +16,6 @@
     (reset! store/events (conj @store/events (merge event-message {:id next-id})))))
 
 (defn handle-message! [message]
-  (.log js/console (str "Event received: " message))
   (let [event-type (:type message)
         event-message (:message message)]
     (case event-type
@@ -25,7 +24,6 @@
       "event.added" (handle-event-added! event-message))))
 
 (defn listen-for-events! []
-  (.log js/console "Attempting to listen to events!")
   (go
     (let [{:keys [ws-channel]} (<! (ws-ch "ws://localhost:3100/events" {:format :transit-json}))]
       (go-loop []
