@@ -106,6 +106,7 @@
         (if-let [result (db/add-workorder! (format-workorder fixed-workorder))]
           (do (println (str "Added workorder: " result))
               (queuing/publish! result queuing/add-workorder-message-type)
+              (queuing/publish-event! (str "Added workorder: " (:title result)))
               {:status 200 :body result})
         {:status 500}))
       {:status 422 :body {:errors validation-errors}})))

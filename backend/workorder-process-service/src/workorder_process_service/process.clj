@@ -22,6 +22,20 @@
    :client-id client-id
    :priority priority})
 
+(defn get-event-text [status]
+  (case status
+    "approved" "Approved"
+    "rejected" "Rejected"
+    "in-progress" "In progress"
+    "aborted" "Aborted"
+    "finished" "Finished"
+    "closed" "Closed"
+    nil))
+
+(defn create-event-message [id title status]
+  (when-let [event-text (get-event-text status)]
+    (str "Workorder #" id " - '" title "' has a new status: " status)))
+
 (defn handle-message [type message]
   (when (some #(= % type) subscribed-messages)
     (println (str "Handling message type '" type "': " message))
@@ -37,4 +51,5 @@
           (let [message-to-add (create-message workorder-id title status client-id priority)]
             (println (str "Publishing message '" message-type "' to queue: " message-to-add))
             (queing/publish! message-to-add message-type)
+            (when-let [event-message (create-event-message workorder-id title status)])
             (db/add-process-status! message-to-add)))))))

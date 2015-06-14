@@ -20,7 +20,7 @@
 ;; Views
 
 (defn home-page []
-  (home-page/render))
+  (home-page/render store/events))
 
 (defn clients-page []
   [clients-page/render store/clients])

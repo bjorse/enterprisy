@@ -12,6 +12,12 @@
      :user "postgres"
      :password "postgres"})
 
+(defn get-todo-item [id]
+  (let [result (sql/query db ["SELECT * FROM todo WHERE id = ?" id])]
+    (if result
+      (first result)
+      nil)))
+
 (defn get-todo-items []
   (sql/query db ["SELECT * FROM todo ORDER BY added DESC"]))
 

@@ -9,7 +9,9 @@
 
 (def ^{:const true} default-exchange-name "")
 
-(def queue-name "enterprisy.data.todo")
+(def todo-queue-name "enterprisy.data.todo")
+
+(def event-queue-name "enterprisy.events")
 
 (def amqp-url (str "amqp://enterprisy:enterprisy@" config/queue-ip ":5672"))
 
@@ -22,9 +24,18 @@
         (String. payload "UTF-8") delivery-tag content-type type))
       (message-handler type message-as-map))))
 
-(defn listen! [message-handler]
+(defn- listen-on-queues! [queues message-handler]
   (let [conn (rmq/connect {:uri amqp-url})
         ch (lch/open conn)]
     (println (format "Connected to RabbitMQ. Channel id: %d" (.getChannelNumber ch)))
-    (lq/declare ch queue-name {:exclusive false :auto-delete false})
-    (lc/subscribe ch queue-name (wrap-message-handler message-handler) {:auto-ack true})))
+    (loop [queue-list queues]
+      (let [queue (first queue-list)]
+        (lq/declare ch queue {:exclusive false :auto-delete false})
+        (lc/subscribe ch queue (wrap-message-handler message-handler) {:auto-ack true})
+        (println (str "Listening on queue: " queue)))
+      (when (> (count queue-list) 1)
+        (recur (rest queue-list))))))
+
+(defn listen! [message-handler]
+  (let [queues [todo-queue-name event-queue-name]]
+    (listen-on-queues! queues message-handler)))

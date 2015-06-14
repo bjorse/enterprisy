@@ -47,13 +47,16 @@
       (if-let [result (format-todo-item (db/add-todo-item! todo-item))]
         (do (println (str "Added todo item: " result))
             (queuing/publish! result queuing/add-todo-item-message-type)
+            (queuing/publish-event! (str "Added todo item: " (:description result) " - " (:title result)))
             {:status 200 :body result})
         {:status 500})
       {:status 422 :body {:errors validation-errors}})))
 
 (defn delete-todo-item! [id]
   (println (str "Trying to delete todo item with id: " id))
-  (when (db/delete-todo-item! id)
-    (println (str "Removed todo item with id: " id))
-    (queuing/publish! {:id id} queuing/remove-todo-item-message-type)
-    {:result "success" :id id}))
+  (if-let [todo-item (db/get-todo-item id)]
+    (when (db/delete-todo-item! id)
+      (println (str "Removed todo item with id: " id))
+      (queuing/publish! {:id id} queuing/remove-todo-item-message-type)
+      (queuing/publish-event! (str "Todo item finished: " (:description todo-item) " - " (:title todo-item)))
+      {:result "success" :id id})))

@@ -14,3 +14,5 @@
 (def current-workorder (atom nil))
 
 (def todo-items (atom []))
+
+(def events (atom []))

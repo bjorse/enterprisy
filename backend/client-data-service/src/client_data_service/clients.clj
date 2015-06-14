@@ -44,11 +44,11 @@
                 (when (string/blank? firstname) {:key "firstname" :text "First name cannot be empty!"})
                 (when (string/blank? lastname) {:key "lastname" :text "Last name cannot be empty!"})
                 (when (string/blank? email) {:key "email" :text "E-mail adress cannot be empty!"})
-                (when (not (validate-email email)) {:key "email" :text "E-mail adress format is not valid!"})
-                (when (not (validate-date-format birthdate)) {:key "birthdate" :text "Birth date format is not valid (expected 'YYYY-MM-DD')."})
-                (when (not (validate-date birthdate)) {:key "birthdate" :text "Birth date cannot be later than today or earlier than 100 years."})
+                (when-not (validate-email email) {:key "email" :text "E-mail adress format is not valid!"})
+                (when-not (validate-date-format birthdate) {:key "birthdate" :text "Birth date format is not valid (expected 'YYYY-MM-DD')."})
+                (when-not (validate-date birthdate) {:key "birthdate" :text "Birth date cannot be later than today or earlier than 100 years."})
                 (when (string/blank? gender) {:key "gender" :text "Gender cannot be empty!"})
-                (when (not (list-contains? gender allowed-gender-values)) {:key "gender" :text "Gender is not a valid value!"}))]
+                (when-not (list-contains? gender allowed-gender-values) {:key "gender" :text "Gender is not a valid value!"}))]
     (filter #(not (= nil %)) errors)))
 
 (defn format-client [client]
@@ -74,6 +74,7 @@
           (if-let [result (db/add-client! fixed-client)]
             (do (println (str "Added client: " result))
                 (queuing/publish! result queuing/add-client-message-type)
+                (queuing/publish-event! (str "Added client " (:firstname fixed-client) " " (:lastname fixed-client)))
                 {:status 200 :body result})
           {:status 500})))
       {:status 422 :body {:errors validation-errors}})))

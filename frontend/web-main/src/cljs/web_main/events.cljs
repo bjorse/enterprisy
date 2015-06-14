@@ -11,13 +11,18 @@
   (let [item-id (:id todo-item)]
     (reset! store/todo-items (filter #(not= (:id %) item-id) @store/todo-items))))
 
+(defn handle-event-added! [event-message]
+  (let [next-id (inc (count @store/events))]
+    (reset! store/events (conj @store/events (merge event-message {:id next-id})))))
+
 (defn handle-message! [message]
   (.log js/console (str "Event received: " message))
   (let [event-type (:type message)
         event-message (:message message)]
     (case event-type
       "todo.added" (handle-todo-added! event-message)
-      "todo.removed" (handle-todo-removed! event-message))))
+      "todo.removed" (handle-todo-removed! event-message)
+      "event.added" (handle-event-added! event-message))))
 
 (defn listen-for-events! []
   (.log js/console "Attempting to listen to events!")
